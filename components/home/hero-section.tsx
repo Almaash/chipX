@@ -1,18 +1,21 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[700px] flex items-center justify-center overflow-hidden -mt-20">
-      {/* Background Image */}
+    <section className="relative min-h-[750px] flex items-center justify-center overflow-hidden -mt-20">
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/hero.jpg"
-          alt="Modern office space with library shelves"
-          fill
-          className="object-cover"
-          priority
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover scale-115 transition-transform duration-[6000ms] ease-in-out"
+        >
+          <source src="/videos/ContactusPageVideo.mp4" type="video/mp4" />
+        </video>
+
+
         {/* Dark overlay for contrast */}
         <div className="absolute inset-0 bg-[#0A192F]/80" />
       </div>
@@ -40,7 +43,7 @@ export default function HeroSection() {
 
           <div className="mb-8">
             <p className="text-lg md:text-xl text-gray-200">
-              Built by Engineers from <br /> 
+              Built by Engineers from <br />
               <span className="text-[#38BDF8] font-semibold">
                 IEEE-ASME New York
               </span>, Global Semicon Leaders
@@ -56,22 +59,20 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Bottom curve SVG */}
-{/* Bottom wavy SVG */}
-<div className="absolute bottom-0 w-full overflow-hidden leading-none">
-  <svg
-    className="relative block w-full h-32"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1200 120"
-    preserveAspectRatio="none"
-  >
-    <path
-      d="M0,0 C300,60 900,0 1200,60 L1200,120 L0,120 Z"
-      fill="white"
-    />
-  </svg>
-</div>
-
+      {/* Bottom wavy SVG */}
+      <div className="absolute bottom-0 w-full overflow-hidden leading-none">
+        <svg
+          className="relative block w-full h-32"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0 C300,60 900,0 1200,60 L1200,120 L0,120 Z"
+            fill="white"
+          />
+        </svg>
+      </div>
     </section>
   );
 }

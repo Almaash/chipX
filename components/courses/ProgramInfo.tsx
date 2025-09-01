@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 export default function ProgramInfo() {
   return (
-    <div className="grid grid-cols-12 gap-4 max-w-7xl py-16" >
+    <div className="grid grid-cols-12 gap-4 max-w-7xl pb-16" >
       {/* Left Section - Program Info */}
       <div className="col-span-4 bg-blue-200 p-8 rounded-lg -ml-10 flex flex-col justify-end pl-30">
         <h2 className="text-3xl font-semibold text-gray-800 mb-2">

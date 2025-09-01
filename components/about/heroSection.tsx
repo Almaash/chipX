@@ -2,7 +2,7 @@ import { Play } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="bg-[#0A192F] text-white relative overflow-hidden -mt-20">
+    <section className="bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white relative overflow-hidden -mt-20">
       {/* Tech-Style Background Elements */}
       <div className="absolute -top-10 -left-10 w-40 h-40 border-2 border-blue-500 rounded-lg opacity-20 animate-pulse"></div>
       <div className="absolute top-1/4 right-1/4 w-32 h-32 border-2 border-blue-400 rounded-full opacity-15 animate-ping"></div>

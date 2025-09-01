@@ -2,30 +2,16 @@ import { Users, Handshake, Lightbulb, Shield } from "lucide-react"
 
 export function CoreValues() {
   const values = [
-    {
-      icon: Users,
-      title: "We are an excellent team",
-      color: "text-blue-400",
-    },
-    {
-      icon: Handshake,
-      title: "We collaborate with customers.",
-      color: "text-blue-300",
-    },
-    {
-      icon: Lightbulb,
-      title: "We innovate to grow.",
-      color: "text-blue-200",
-    },
-    {
-      icon: Shield,
-      title: "We create an environment of complete trust, respect, integrity and honor.",
-      color: "text-blue-100",
-    },
+    { icon: Users, title: "We are an excellent team", color: "text-blue-400" },
+    { icon: Handshake, title: "We collaborate with customers.", color: "text-blue-300" },
+    { icon: Lightbulb, title: "We innovate to grow.", color: "text-blue-200" },
+    { icon: Shield, title: "We create an environment of complete trust, respect, integrity and honor.", color: "text-blue-100" },
   ]
 
   return (
-    <section className="relative bg-[#0A192F] text-white py-20 px-6 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white py-20 px-6 overflow-hidden">
+
+
       {/* Background text */}
       <span className="absolute bottom-0 left-0 text-[8rem] md:text-[12rem] font-extrabold text-white/5 tracking-wider leading-none select-none">
         Chip<span className="text-[20rem]">X</span>

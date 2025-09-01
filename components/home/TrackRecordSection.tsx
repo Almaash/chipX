@@ -50,7 +50,7 @@ export default function TrackRecordSection() {
   return (
     <section
       ref={sectionRef}
-      className="py-20 bg-[#27548A] text-white"
+      className="py-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white"
     >
       <div className="max-w-[1400px] mx-auto px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-start md:items-center gap-12">
         {/* Left side: Title */}

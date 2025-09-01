@@ -18,24 +18,16 @@ const testimonials: Testimonial[] = [
     id: 1,
     message:
       "ChipX's courses are incredibly comprehensive and well-structured. As a beginner in semiconductors, I gained valuable insights and practical skills that boosted my confidence. The platform is user-friendly, making learning both engaging and efficient. Highly recommend ChipX to anyone looking to excel in this field!",
-    name: "Faryad Alam",
-    title: "Founder, CEO & Author",
+    name: "Atif Raza",
+    title: "PD Engineer Program 2025",
     image: "/images/testimonial.png",
   },
   {
     id: 2,
     message:
-      "Maven Silicon has been instrumental in shaping the VLSI industry with top-quality training and research-driven learning processes.",
-    name: "Jane Doe",
-    title: "Head of Training",
-    image: "/images/testimonial.png",
-  },
-  {
-    id: 3,
-    message:
-      "We believe in empowering engineers with practical knowledge and hands-on project experience, making them industry-ready.",
-    name: "John Smith",
-    title: "CTO",
+      "ChipX transformed my understanding of semiconductors with its dynamic online courses. The expert instructors and engaging content made complex topics accessible. I especially appreciated the interactive elements, which kept me motivated throughout. An excellent resource for anyone eager to deepen their industry knowledge!",
+    name: "Shama Kausar",
+    title: "PD Engineer Program 2025",
     image: "/images/testimonial.png",
   },
 ];
@@ -47,7 +39,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
-            Words From Our Leaders
+            Words From Our Engineers
           </h1>
         </div>
 

@@ -3,10 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { Card } from "../ui/card";
-import { Button } from "../ui/button";
-import ProgramInfo from "./ProgramInfo";
-import StatisticsOverview from "./StatisticsOverview";
 
 const courses = [
   {
@@ -15,7 +11,7 @@ const courses = [
     semiHeader: "ChipX Internship Program",
     learners: "2K+ Learners",
     description:
-      "Gain Hands-on Experience in VLSI with EDA Tools Designed for aspiring VLSI engineers to gain real-world exposure. Focus on Physical Design Engineering with the latest industry projects. Flexible modes: Online & Hybrid options based on student location.",
+      "Gain Hands-on Experience in VLSI with EDA Tools. Designed for aspiring VLSI engineers to gain real-world exposure. Focus on Physical Design Engineering with the latest industry projects. Flexible modes: Online & Hybrid options based on student location.",
     internshipStructure: [
       "Weekdays: 1-hour faculty-led classes.",
       "Weekends: Access to ChipX Lab.",
@@ -26,48 +22,52 @@ const courses = [
       "✔ Opportunity to build projects for your resume & placements.",
       "✔ Hands-on training using Synopsys EDA tools.",
     ],
-    tag: "Offer Letter & Joining Letter. Certificate of Completion.",
-    image: "/images/hero.jpg",
+    tag2: "Offer Letter & Joining Letter. ",
+    tag: " Certificate of Completion.",
+    image: "/images/office1.jpg",
   },
   {
     id: 2,
-    title: "Semiconductor Student Internship",
-    semiHeader: "ChipX Internship Program",
-    learners: "2K+ Learners",
+    title: "Physical Design Engineer Program (PD Engineer)",
+    semiHeader: "We make PD Engineers",
+    learners: "1K+ Learners",
     description:
-      "Gain Hands-on Experience in VLSI with EDA Tools Designed for aspiring VLSI engineers to gain real-world exposure. Focus on Physical Design Engineering with the latest industry projects. Flexible modes: Online & Hybrid options based on student location.",
+      "Six months of extensive Physical Design Program for college students and pass out engineers.",
     internshipStructure: [
-      "Weekdays: 1-hour faculty-led classes.",
-      "Weekends: Access to ChipX Lab.",
+      "Place & Route (PnR)",
+      "Physical Verification (PV)",
+      "Static Timing Analysis (STA) & IR drop analysis",
+      "Sign-off methodologies",
+      "Complete Synthesis to GDSII flow",
+      "Soft Skills & Communication Skills",
     ],
     highlights: [
-      "✔ Learn from industry experts with 10+ years of experience.",
-      "✔ Practical exposure to the latest VLSI design trends.",
-      "✔ Opportunity to build projects for your resume & placements.",
-      "✔ Hands-on training using Synopsys EDA tools.",
+      "✔ Master the complete PD flow from synthesis to GDSII",
+      "✔ Gain hands-on experience with real industry projects",
+      "✔ Learn essential soft skills and professional communication",
     ],
-    tag: "Offer Letter & Joining Letter. Certificate of Completion.",
-    image: "/images/hero.jpg",
+    tag: "Certificate of Completion",
+    image: "/images/office2.jpg",
   },
   {
     id: 3,
-    title: "Semiconductor Student Internship",
-    semiHeader: "ChipX Internship Program",
-    learners: "2K+ Learners",
+    title: "Personality Development & Soft Skills",
+    semiHeader: "Top Non-Technical Program",
+    learners: "3K+ Learners",
     description:
-      "Gain Hands-on Experience in VLSI with EDA Tools Designed for aspiring VLSI engineers to gain real-world exposure. Focus on Physical Design Engineering with the latest industry projects. Flexible modes: Online & Hybrid options based on student location.",
+      "As you need to be strong technically, you also need excellent communication and personality. ChipX provides a platform with top non-technical programs for engineers and students.",
     internshipStructure: [
-      "Weekdays: 1-hour faculty-led classes.",
-      "Weekends: Access to ChipX Lab.",
+      "Communication Skills Training",
+      "Personality Development Workshops",
+      "Interview Preparation & Mock Sessions",
     ],
     highlights: [
-      "✔ Learn from industry experts with 10+ years of experience.",
-      "✔ Practical exposure to the latest VLSI design trends.",
-      "✔ Opportunity to build projects for your resume & placements.",
-      "✔ Hands-on training using Synopsys EDA tools.",
+      "✔ Improve your interpersonal communication skills",
+      "✔ Develop a professional and confident personality",
+      "✔ Prepare for global engineering roles",
     ],
-    tag: "Offer Letter & Joining Letter. Certificate of Completion.",
-    image: "/images/hero.jpg",
+    tag: "Certificate of Completion",
+    image: "/images/office3.jpg",
   },
 ];
 
@@ -79,37 +79,21 @@ export default function Courses() {
   };
 
   return (
-    <section className="bg-white  relative overflow-hidden my-20">
-      {/* Tech Background Symbols */}
-      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-        <div className="absolute top-10 left-5 w-32 h-32 border-2 border-blue-800 opacity-20 rounded-lg rotate-12 animate-pulse"></div>
-        <div className="absolute top-1/4 left-10 w-20 h-20 border-2 border-blue-700 opacity-20 rounded-full animate-ping"></div>
-        <div className="absolute top-2/3 left-5 w-24 h-24 border-2 border-blue-900 opacity-15 rounded-lg rotate-6 animate-pulse"></div>
-        <div className="absolute bottom-1/4 left-8 w-16 h-16 border-2 border-blue-700 opacity-25 rounded-full animate-ping"></div>
-        <div className="absolute bottom-10 left-10 w-12 h-12 border-2 border-blue-800 opacity-20 rounded-lg rotate-45 animate-pulse"></div>
-
-        <div className="absolute top-20 right-5 w-28 h-28 border-2 border-blue-800 opacity-20 rounded-lg rotate-30 animate-pulse"></div>
-        <div className="absolute top-1/3 right-10 w-16 h-16 border-2 border-blue-700 opacity-20 rounded-full animate-ping"></div>
-        <div className="absolute top-2/3 right-5 w-24 h-24 border-2 border-blue-900 opacity-15 rounded-lg rotate-12 animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-8 w-20 h-20 border-2 border-blue-700 opacity-25 rounded-full animate-ping"></div>
-        <div className="absolute bottom-10 right-10 w-12 h-12 border-2 border-blue-800 opacity-20 rounded-lg rotate-45 animate-pulse"></div>
-
-        <div className="absolute w-1 h-32 bg-blue-800 opacity-20 top-1/4 left-1/2 rotate-12"></div>
-        <div className="absolute w-1 h-24 bg-blue-700 opacity-20 bottom-1/3 right-1/2 rotate-45"></div>
-        <div className="absolute w-1 h-20 bg-blue-900 opacity-15 top-1/2 left-1/3 rotate-30"></div>
-        <div className="absolute w-1 h-28 bg-blue-800 opacity-20 bottom-1/4 right-1/4 rotate-60"></div>
-      </div>
-      
+    <section className="bg-white relative overflow-hidden my-20">
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Explore Our Courses
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Hands-on training programs designed to help you excel in VLSI and
-            semiconductor technologies.
-          </p>
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Semiconductor Courses
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Physical Design Engineer Program <br />
+              Master PD with ChipX and unlock cutting-edge skills for a future in
+              advanced VLSI innovation.
+            </p>
+          </div>
         </div>
+
 
         <div className="flex flex-col space-y-8 mx-5">
           {courses.map((course) => {
@@ -142,13 +126,12 @@ export default function Courses() {
                     </p>
 
                     <div
-                      className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                        isExpanded ? "max-h-[1000px] mt-4" : "max-h-0"
-                      }`}
+                      className={`transition-all duration-500 ease-in-out overflow-hidden ${isExpanded ? "max-h-[1000px] mt-4" : "max-h-0"
+                        }`}
                     >
                       <div className="mb-3">
                         <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                          Internship Structure
+                          Internship Structure / Modules
                         </h4>
                         <ul className="list-disc list-inside text-gray-600 text-sm space-y-1">
                           {course.internshipStructure.map((item, index) => (
@@ -186,20 +169,6 @@ export default function Courses() {
             );
           })}
         </div>
-
-        {/* <div className="mt-20 text-center bg-white border border-gray-200 py-14 px-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative z-10">
-          <h3 className="text-3xl font-extrabold text-gray-900 mb-4">
-            Accelerate Your Tech Career
-          </h3>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Unlock industry-relevant courses and certifications tailored for the
-            evolving semiconductor landscape. Join ChipX today to upskill and
-            stay ahead in tech innovation.
-          </p>
-          <button className="bg-blue-600 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg transition">
-            Join Now
-          </button>
-        </div> */}
       </div>
     </section>
   );
