@@ -44,6 +44,7 @@ export default function PartnersSection() {
               Explore Programs
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
+            <p className="text-gray-300">* Logos are the trademarks of the respective organizations.</p>
           </div>
 
           {/* Right Side - Animated Company Logos */}

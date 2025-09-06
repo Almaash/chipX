@@ -6,6 +6,7 @@ import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { HiringHero } from "@/components/contact/hiring-hero";
 import { PartnerBanner } from "@/components/internship/PartnerBanner";
+import { ArrowRight } from "lucide-react";
 
 export default function ContactPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -23,7 +24,7 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white text-center py-28 overflow-hidden -mt-20">
+      <section className="relative bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white text-center py-25 overflow-hidden -mt-20">
         <div className="container mx-auto px-6 max-w-4xl relative z-10">
           <h1 className="font-serif text-5xl md:text-6xl font-extrabold mb-4">
             Contact Us
@@ -34,8 +35,20 @@ export default function ContactPage() {
           <p className="mt-4 text-blue-400 font-semibold text-xl">
             +91 - 88778 09827
           </p>
+
+          {/* Apply Now Button */}
+          <div className="mt-6 flex justify-center">
+            <Button
+              className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-3 text-md font-medium rounded-lg shadow-md transition-all duration-300 flex items-center gap-2 cursor-pointer"
+            >
+              APPLY NOW
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+          </div>
+
         </div>
       </section>
+
 
       {/* Map + Content Side by Side */}
       <section className="py-16">
@@ -83,7 +96,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-           <PartnerBanner />
+      <PartnerBanner />
       <HiringHero />
 
       {/* Gallery Section */}
@@ -138,7 +151,7 @@ export default function ContactPage() {
 
 
 
- 
+
 
       <Footer />
     </div>
