@@ -52,7 +52,7 @@ function TiltCard({
     icon: React.ElementType
 }) {
     return (
-        <Card className="group transform border-[#e5e7eb] bg-white shadow-md transition-transform duration-300 hover:-rotate-1 hover:shadow-lg">
+        <Card className="group transform border-[#e5e7eb] bg-slate-50  shadow-md transition-transform duration-300 hover:-rotate-1 hover:shadow-lg">
             <CardHeader className="flex flex-row items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-md border border-[#e5e7eb] bg-white">
                     <Icon className="h-5 w-5 text-[#2f6fed]" />

@@ -10,7 +10,7 @@ import Header from "@/components/header";
 
 export default function CoursesPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       <Header />
       <Hero />
       <ProgramInfo />

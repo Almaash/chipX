@@ -45,12 +45,12 @@ export function AboutSection() {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white">
                   <Linkedin className="w-6 h-6" />
                 </div>
-                <Button
+                {/* <Button
                   variant="outline"
                   className="border-blue-600 text-blue-600 hover:bg-blue-50 px-5 py-2"
                 >
                   Connect with Us
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

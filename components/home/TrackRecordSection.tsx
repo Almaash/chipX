@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 interface Stat {
   value: string;
@@ -26,7 +27,6 @@ export default function TrackRecordSection() {
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [startCount, setStartCount] = useState(false);
 
-  // Intersection Observer to start counting when section comes into view
   useEffect(() => {
     if (!sectionRef.current) return;
 
@@ -39,7 +39,7 @@ export default function TrackRecordSection() {
           }
         });
       },
-      { threshold: 0.3 } // trigger when 30% of section is visible
+      { threshold: 0.3 }
     );
 
     observer.observe(sectionRef.current);
@@ -50,9 +50,20 @@ export default function TrackRecordSection() {
   return (
     <section
       ref={sectionRef}
-      className="py-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white"
+      className="relative py-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white overflow-hidden"
     >
-      <div className="max-w-[1400px] mx-auto px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-start md:items-center gap-12">
+      {/* Decorative image */}
+      <div className="absolute -right-10 bottom-0   z-10 opacity-80 pointer-events-none">
+        <Image
+          src="/images/rocket.png" 
+          alt="Semiconductor illustration"
+          width={220}
+          height={220}
+          className="object-contain"
+        />
+      </div>
+
+      <div className="relative z-20 max-w-[1400px] mx-auto px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-start md:items-center gap-12">
         {/* Left side: Title */}
         <div className="md:w-1/3">
           <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
@@ -94,7 +105,6 @@ function AnimatedStat({ value, start, label }: AnimatedStatProps) {
   useEffect(() => {
     if (!start) return;
 
-    // Extract numeric value from string
     const numeric = parseFloat(value.replace(/[^0-9.]/g, ""));
     if (numeric === 0) {
       setDisplayValue(value);
@@ -102,16 +112,15 @@ function AnimatedStat({ value, start, label }: AnimatedStatProps) {
     }
 
     let current = 0;
-    const duration = 2000; // 2 seconds animation
-    const increment = numeric / (duration / 50); // update every 50ms
+    const duration = 2000;
+    const increment = numeric / (duration / 50);
 
     const interval = setInterval(() => {
       current += increment;
       if (current >= numeric) {
         clearInterval(interval);
-        setDisplayValue(value); // final value including symbol
+        setDisplayValue(value);
       } else {
-        // show rounded number
         setDisplayValue(
           value.includes("%")
             ? Math.round(current) + "%"

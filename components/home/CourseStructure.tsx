@@ -72,7 +72,7 @@ export default function CourseStructure() {
   return (
     <section className="bg-white py-20 relative">
       {/* Vertical line outside the cards */}
-      <div className="hidden md:block absolute left-60 top-0 h-[10%] w-1 bg-gray-300 rounded-full"></div>
+      <div className="hidden md:block absolute left-60 top-0 h-[9.2%] w-1 bg-gray-300 rounded-full"></div>
 
       {/* Horizontal line outside the cards */}
       <div className="hidden md:block absolute left-60 top-30 w-36 h-1 bg-gray-300 rounded-full"></div>

@@ -1,3 +1,4 @@
+"use client"
 import { Play } from "lucide-react";
 import Image from "next/image";
 
@@ -10,7 +11,7 @@ export default function PioneeringSection() {
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="rounded-2xl shadow-lg bg-[#F5F7F7] p-10  m-4 md:m-12 lg:m-20">
           <h1 className="text-4xl font-serif text-gray-800 leading-tight pb-10">
-            Pioneering{" "} 
+            Pioneering{" "}
             <em className="text-[#27548A]">Semiconductor</em>{" "}
             <em className="text-[#27548A]">Education</em>
           </h1>
@@ -35,16 +36,18 @@ export default function PioneeringSection() {
               </p>
             </div>
 
-            {/* Right Image Section */}
+            {/* Right Video Section */}
             <div className="relative max-w-md md:max-w-lg lg:max-w-xl mx-auto">
               <div className="bg-gray-600 rounded-lg overflow-hidden shadow-lg">
-                <Image
-                  src="/images/office.jpg"
-                  alt="ChipX Semiconductor"
-                  width={600}
-                  height={600}
-                  className="w-full h-auto object-cover"
+                <video
+                  src="/videos/homepagevideo.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-auto object-cover scale-130" // zoomed in
                 />
+
               </div>
             </div>
           </div>

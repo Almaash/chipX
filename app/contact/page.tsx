@@ -4,16 +4,18 @@ import { useState } from "react";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
+import { HiringHero } from "@/components/contact/hiring-hero";
+import { PartnerBanner } from "@/components/internship/PartnerBanner";
 
 export default function ContactPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
     "/images/office.jpg",
+    "/images/ku2yjn.jpg",
     "/images/office1.jpg",
     "/images/office2.jpg",
     "/images/office3.jpg",
-    "/images/ku2yjn.jpg",
   ];
 
   return (
@@ -62,13 +64,27 @@ export default function ContactPage() {
               Pura, EPIP Zone, Chinnapanna Halli, Bengaluru, Karnataka, India
             </p>
             <div>
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full shadow-lg transition">
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/918877809827?text=Hi%20there!%20Welcome%20to%20ChipX%20%E2%80%93%20India%E2%80%99s%20First%20Semiconductor%20School%0AWe%E2%80%99re%20excited%20to%20help%20you%20build%20a%20career%20in%20the%20%241T%20global%20semiconductor%20industry.%0A%0ACourses%3A%20Physical%20Design%20Engineer%20Program%0AInternships%3A%2030%20Days%20%E2%80%93%206%20Months%20(Online%20%2B%20Hybrid)%0A%0AReply%20with%3A%0A1%E2%83%A3%20%E2%80%9CCourse%E2%80%9D%20%E2%86%92%20to%20learn%20about%20our%20flagship%20program%0A2%E2%83%A3%20%E2%80%9CInternship%E2%80%9D%20%E2%86%92%20for%20internship%20details%0A3%E2%83%A3%20%E2%80%9CApply%E2%80%9D%20%E2%86%92%20to%20start%20your%20application%20today",
+                    "_blank"
+                  )
+                }
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg transition flex items-center gap-2"
+              >
+                {/* WhatsApp Icon (emoji or SVG) */}
+                <span>📱</span>
                 Schedule a Visit
               </Button>
             </div>
+
           </div>
         </div>
       </section>
+
+           <PartnerBanner />
+      <HiringHero />
 
       {/* Gallery Section */}
       <section className="py-20 bg-white">
@@ -76,11 +92,13 @@ export default function ContactPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10">
             Our Gallery
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+          {/* Flexbox Gallery */}
+          <div className="flex flex-wrap justify-center gap-6">
             {galleryImages.map((src, index) => (
               <div
                 key={index}
-                className="overflow-hidden rounded-lg shadow-md cursor-pointer"
+                className="overflow-hidden rounded-lg shadow-md cursor-pointer w-fit"
                 onClick={() => setSelectedImage(src)}
               >
                 <img
@@ -93,6 +111,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+
 
       {/* Image Modal */}
       {selectedImage && (
@@ -115,6 +135,10 @@ export default function ContactPage() {
           </div>
         </div>
       )}
+
+
+
+ 
 
       <Footer />
     </div>

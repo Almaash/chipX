@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Sparkles } from "lucide-react"
+import { PartnerBanner } from "./PartnerBanner"
 
 export function InternshipDetails() {
     return (
@@ -21,7 +22,7 @@ export function InternshipDetails() {
 
             {/* Program Highlights */}
             <div className="grid gap-6 md:grid-cols-2">
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-md">
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-md">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4">Program Highlights</h3>
                     <ul className="space-y-3 text-slate-700">
                         <li>📌 Mode: Online & Hybrid (based on location)</li>
@@ -31,7 +32,7 @@ export function InternshipDetails() {
                     </ul>
                 </div>
 
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-md">
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-md">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4">Why Join ChipX?</h3>
                     <ul className="space-y-3 text-slate-700">
                         <li>🔬 Industry-Relevant Learning: Latest VLSI tools & methodologies</li>
@@ -43,8 +44,8 @@ export function InternshipDetails() {
             </div>
 
             {/* Eligibility & Certification */}
-            <div className="mt-12 grid gap-6 md:grid-cols-2">
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-md">
+            <div className="mt-12 grid gap-6 md:grid-cols-2 ">
+                <div className="rounded-xl border border-slate-200 p-6 shadow-md bg-slate-50">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4">Eligibility Criteria</h3>
                     <p className="text-slate-700">
                         Open to BTech/BE/ME/MTech students with strong interest in VLSI design.
@@ -56,7 +57,7 @@ export function InternshipDetails() {
                     </ul>
                 </div>
 
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-md">
+                <div className="rounded-xl border border-slate-200  p-6 shadow-md bg-slate-50">
                     <h3 className="text-xl font-semibold text-slate-900 mb-4">Certification & Recognition</h3>
                     <ul className="space-y-3 text-slate-700">
                         <li>📜 Official Offer Letter upon selection</li>
@@ -66,22 +67,9 @@ export function InternshipDetails() {
                 </div>
             </div>
 
-            {/* Partner Invitation */}
-            <div className="mt-12 rounded-xl border border-slate-200 bg-slate-50 p-8 shadow-md text-center">
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Partner With Us</h3>
-                <p className="max-w-2xl mx-auto text-slate-700">
-                    Universities and institutions are invited to collaborate with ChipX to provide their
-                    students access to a global-standard semiconductor internship program.
-                </p>
-                <div className="mt-6 flex justify-center gap-4">
-                    <Button className="bg-[#2f6fed] hover:bg-[#265dcc]" size="lg">
-                        Apply Now
-                    </Button>
-                    <Button className="border border-slate-300 bg-white text-slate-800 hover:bg-slate-100" size="lg">
-                        Partner With Us
-                    </Button>
-                </div>
-            </div>
+            {/* Partner Invitation Banner */}
+            {/* <PartnerBanner /> */}
+
         </section>
 
     )

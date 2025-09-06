@@ -20,15 +20,15 @@ const testimonials: Testimonial[] = [
       "ChipX's courses are incredibly comprehensive and well-structured. As a beginner in semiconductors, I gained valuable insights and practical skills that boosted my confidence. The platform is user-friendly, making learning both engaging and efficient. Highly recommend ChipX to anyone looking to excel in this field!",
     name: "Atif Raza",
     title: "PD Engineer Program 2025",
-    image: "/images/testimonial.png",
+    image: "/images/testmonial1.jpeg",
   },
   {
     id: 2,
     message:
       "ChipX transformed my understanding of semiconductors with its dynamic online courses. The expert instructors and engaging content made complex topics accessible. I especially appreciated the interactive elements, which kept me motivated throughout. An excellent resource for anyone eager to deepen their industry knowledge!",
-    name: "Shama Kausar",
+    name: "Hadi Abbas",
     title: "PD Engineer Program 2025",
-    image: "/images/testimonial.png",
+    image: "/images/testmonial2.jpeg",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Testimonials() {
             <span className="text-5xl text-blue-300 font-serif align-top mr-2">
               “
             </span>
-           Trusted by Bengaluru's Best Semiconductor Engineers
+            Trusted by Bengaluru's Best Semiconductor Engineers
             <span className="text-5xl text-blue-300 font-serif align-bottom ml-2">
               ”
             </span>
@@ -97,7 +97,7 @@ export default function Testimonials() {
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+                      className="w-[35%]  max-w-md mx-auto rounded-lg shadow-lg"
                     />
                   </div>
                 </div>

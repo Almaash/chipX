@@ -11,11 +11,11 @@ export default function StatisticsOverview() {
       </div>
 
       {/* Statistics Grid */}
-      <div className="grid grid-cols-6 gap-0 bg-white border border-gray-200 rounded-lg overflow-hidden mb-16 -ml-60">
+      <div className="grid grid-cols-6 gap-0 bg-gray-50 border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-16 -ml-60">
         {/* First Row */}
-        <div className="p-8"></div>
+        <div className="p-8 bg-gray-100"></div>
 
-        <div className="p-8 border-r border-gray-200 group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             7
           </div>
@@ -27,7 +27,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             2000+
           </div>
@@ -36,7 +36,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             200+
           </div>
@@ -45,7 +45,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             25+
           </div>
@@ -54,7 +54,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 group cursor-pointer transition-colors duration-200">
+        <div className="p-8 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             4
           </div>
@@ -64,9 +64,9 @@ export default function StatisticsOverview() {
         </div>
 
         {/* Second Row */}
-        <div className="p-8 border-gray-200 border-t"></div>
+        <div className="p-8 border-gray-200 border-t bg-gray-100"></div>
 
-        <div className="p-8 border-r border-gray-200 border-t group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             12
           </div>
@@ -75,7 +75,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 border-t bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             250+
           </div>
@@ -84,7 +84,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             150+
           </div>
@@ -93,7 +93,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-r border-gray-200 border-t bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             6
           </div>
@@ -102,7 +102,7 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-gray-200 border-t group cursor-pointer transition-colors duration-200">
+        <div className="p-8 border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
           <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             4
           </div>

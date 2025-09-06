@@ -3,6 +3,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.font-vibes {
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
+
 :root {
   /* Updated color tokens to match Mesa Business School design brief */
   --background: oklch(1 0 0); /* #ffffff */

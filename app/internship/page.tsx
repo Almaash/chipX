@@ -11,6 +11,7 @@ import Header2 from "@/components/header2";
 import JourneyWithApplication from "@/components/internship/JourneyWithApplication";
 import { InternshipDetails } from "@/components/internship/InternshipDetails";
 import ChipXInternship from "@/components/internship/ChipXInternship";
+import { PartnerBanner } from "@/components/internship/PartnerBanner";
 // import { FooterSection } from "@/components/internship/footer-section";
 
 
@@ -24,7 +25,9 @@ export default function Page() {
       <ChipXInternship />
       <WhyChoose />
       <CertificationTimeline />
-      <InternshipBanner />
+      {/* <InternshipBanner /> */}
+      <PartnerBanner />
+
       <InternshipDetails />
       <JourneyWithApplication />
       <Footer />
