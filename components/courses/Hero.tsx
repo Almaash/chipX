@@ -6,9 +6,9 @@ import { Sparkles } from "lucide-react"
 export function Hero() {
   return (
     <header className="relative overflow-hidden -mt-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073]">
-      <div className="relative mx-auto w-full max-w-7xl px-6 md:px-12 lg:px-20 py-20 md:py-32 grid md:grid-cols-2 gap-10 items-center">
+      <div className="relative mx-auto w-full max-w-7xl px-3 md:px-6 lg:px-10 py-20 md:py-32 grid md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
-        <div className="relative z-10">
+        <div className="relative z-10  max-sm:pt-10 max-sm:px-5">
           <h1 className="text-3xl md:text-5xl font-bold leading-snug text-white">
             ChipX – <br />
             Launch Your <br />

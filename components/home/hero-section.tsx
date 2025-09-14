@@ -20,7 +20,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 max-lg:px-6 text-start text-white">
+      <div className="relative z-10 container mx-auto px-4 max-lg:px-6 text-start text-white max-sm:pt-10">
         <div className="max-w-7xl mx-auto">
           {/* <h1 className="text-xl max-lg:text-lg font-bold mb-6 text-[#38BDF8]">
             India&apos;s First VLSI Focused School
