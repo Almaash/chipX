@@ -2,7 +2,7 @@
 
 import { Card } from "../ui/card";
 import { Button } from "../ui/button";
-import { Calendar, Briefcase, Clock, MapPin, Building2 } from "lucide-react";
+import { Calendar, Briefcase, Clock, MapPin, Building2, CheckSquare } from "lucide-react";
 
 export default function ProgramInfo() {
   return (
@@ -65,6 +65,16 @@ export default function ProgramInfo() {
             label: "Format",
             value: "Full-Time | Campus + Hybrid Learning",
             span: 2,
+          },
+          {
+            icon: <CheckSquare size={16} className="text-blue-500" />,
+            label: "Assessment",
+            value: "Projects, Exams & Labs",
+          },
+          {
+            icon: <CheckSquare size={16} className="text-blue-500" />,
+            label: "Certification",
+            value: "Industry-recognized PG Certificate",
           },
         ].map((item, index) => (
           <Card
