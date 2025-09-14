@@ -2,9 +2,9 @@ import { Target } from "lucide-react"
 
 export function VisionMission() {
   return (
-    <section className="bg-white px-6">
+    <section className="bg-white px-4 sm:px-6 lg:px-12">
       <div className="max-w-5xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* Left Side - Mission & Vision */}
           <div className="space-y-8">
@@ -14,10 +14,10 @@ export function VisionMission() {
                 <div className="p-3 rounded-full bg-blue-100">
                   <Target className="w-6 h-6 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold text-gray-800">Our Mission</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Our Mission</h2>
               </div>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Empowering India's future through semiconductor education and innovation excellence.
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                Empowering India’s future through semiconductor education, innovation, and career excellence.
               </p>
             </div>
 
@@ -27,10 +27,10 @@ export function VisionMission() {
                 <div className="p-3 rounded-full bg-blue-100">
                   <Target className="w-6 h-6 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold text-gray-800">Our Vision</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Our Vision</h2>
               </div>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Empowering every engineer with semiconductor training, skills, and opportunities — to build India’s future in chips.
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                To equip every engineer with the skills, training, and opportunities to shape India’s semiconductor future.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function VisionMission() {
               <img
                 src="/images/vision.png"
                 alt="Vision and Mission"
-                className="w-full max-w-md h-120 object-cover rounded-2xl"
+                className="w-full max-w-xs sm:max-w-md object-cover rounded-2xl"
               />
             </div>
           </div>

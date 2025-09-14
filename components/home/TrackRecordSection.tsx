@@ -50,26 +50,27 @@ export default function TrackRecordSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white overflow-hidden"
+      className="relative py-20 bg-gradient-to-br from-[#0b1f3a] via-[#122d52] to-[#1d4073] text-white overflow-hidden px-4 sm:px-6 md:px-30"
     >
       {/* Decorative image */}
-      <div className="absolute -right-10 bottom-0   z-10 opacity-80 pointer-events-none">
+      <div className="absolute -right-6 sm:-right-10 bottom-0 z-10 opacity-80 pointer-events-none w-40 sm:w-52">
         <Image
-          src="/images/rocket.png" 
+          src="/images/rocket.png"
           alt="Semiconductor illustration"
-          width={220}
-          height={220}
+          width={320}  // increased from 220
+          height={320} // increased from 220
           className="object-contain"
         />
       </div>
 
-      <div className="relative z-20 max-w-[1400px] mx-auto px-6 sm:px-12 md:px-24 flex flex-col md:flex-row items-start md:items-center gap-12">
+
+      <div className="relative z-20 max-w-[1400px] mx-auto flex flex-col md:flex-row items-start md:items-center gap-12">
         {/* Left side: Title */}
-        <div className="md:w-1/3">
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+        <div className="w-full md:w-1/3 text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug sm:leading-tight md:leading-tight mb-4">
             Semiconductors are the future
           </h2>
-          <p className="text-lg md:text-xl text-gray-300">
+          <p className="text-sm sm:text-base md:text-lg text-gray-300">
             And the future belongs to the engineers who build them. <br />
             <span className="text-white font-semibold">
               ChipX develops you into one.
@@ -78,7 +79,7 @@ export default function TrackRecordSection() {
         </div>
 
         {/* Right side: Stats */}
-        <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center md:text-left">
+        <div className="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 text-center md:text-left">
           {stats.map((stat, index) => (
             <AnimatedStat
               key={index}
@@ -125,8 +126,8 @@ function AnimatedStat({ value, start, label }: AnimatedStatProps) {
           value.includes("%")
             ? Math.round(current) + "%"
             : value.includes("Bn")
-            ? "$" + Math.round(current) + "Bn"
-            : Math.round(current).toString()
+              ? "$" + Math.round(current) + "Bn"
+              : Math.round(current).toString()
         );
       }
     }, 50);
@@ -135,9 +136,9 @@ function AnimatedStat({ value, start, label }: AnimatedStatProps) {
   }, [start, value]);
 
   return (
-    <div className="px-4 sm:px-6">
-      <p className="text-3xl md:text-4xl font-bold mb-2">{displayValue}</p>
-      <p className="text-sm md:text-base text-gray-300">{label}</p>
+    <div className="px-2 sm:px-4">
+      <p className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">{displayValue}</p>
+      <p className="text-xs sm:text-sm md:text-base text-gray-300">{label}</p>
     </div>
   );
 }

@@ -10,30 +10,25 @@ export function Hero() {
         {/* Left Content */}
         <div className="relative z-10">
           <h1 className="text-3xl md:text-5xl font-bold leading-snug text-white">
-            ChipX
-            <br />
-            Launch Your
-            <br />
+            ChipX – <br />
+            Launch Your <br />
             Semiconductor Career
           </h1>
-          <p className="mt-4 max-w-md text-slate-200 text-base md:text-lg leading-relaxed">
-            A comprehensive, mentor-led path with hands-on labs, expert lectures, and real projects 
-            to kickstart your semiconductor journey.
+          <p className="mt-4 max-w-md text-slate-200 text-sm md:text-base leading-relaxed">
+            A career-defining program designed to turn fresh graduates and
+            early-career engineers into industry-ready semiconductor
+            professionals. Learn directly from expert mentors through hands-on
+            labs, live lectures, and real-world chip design projects that mirror
+            the workflows of global semiconductor giants.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <Button className="bg-[#2f6fed] hover:bg-[#265dcc] text-sm md:text-base px-5 py-2 md:px-6 md:py-3">
-              Learn More
-            </Button>
-            <Button
-              className="border border-slate-400/30 bg-transparent text-white hover:bg-white/10 text-sm md:text-base px-5 py-2 md:px-6 md:py-3"
-              variant="secondary"
-            >
-              Explore Tracks
+              Apply Now →
             </Button>
           </div>
           <div className="mt-4 inline-flex items-center gap-2 text-xs md:text-sm text-slate-300">
             <Sparkles className="h-4 w-4 text-[#2f6fed]" />
-            New cohort starting soon
+            🚀 Admissions for the 2026 Cohort are now open!
           </div>
         </div>
 

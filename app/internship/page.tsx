@@ -21,13 +21,10 @@ export default function Page() {
     <main className="flex min-h-screen flex-col bg-white text-slate-900">
       <Header />
       <Hero />
-      {/* <ProgramDiagram /> */}
       <ChipXInternship />
       <WhyChoose />
       <CertificationTimeline />
-      {/* <InternshipBanner /> */}
       <PartnerBanner />
-
       <InternshipDetails />
       <JourneyWithApplication />
       <Footer />

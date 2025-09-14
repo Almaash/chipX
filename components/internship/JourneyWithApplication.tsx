@@ -3,11 +3,11 @@ import { BookOpen, ListChecks, Layers3, Cpu, Presentation } from "lucide-react"
 import { Button } from "../ui/button";
 
 const steps = [
-  { icon: BookOpen, title: "Initial: Core Journey", note: "Semiconductor basics and tooling" },
-  { icon: Layers3, title: "Design Modules", note: "RTL, FSMs, and IP blocks" },
-  { icon: Presentation, title: "Mentor Reviews", note: "Iterate with expert feedback" },
-  { icon: Cpu, title: "Project Sprints", note: "Build and present real modules" },
-  { icon: ListChecks, title: "Mock Interviews", note: "Get ready for hiring" },
+  { icon: BookOpen, title: "Apply Online", note: "Submit the ChipX Internship application form." },
+  { icon: Layers3, title: "Screening Call", note: "Our team reviews your resume and connects to understand your career goals." },
+  { icon: Presentation, title: "Resume Evaluation", note: "Detailed assessment of your profile for program fit." },
+  { icon: Cpu, title: "Personal Interview", note: "One-on-one interaction with ChipX mentors & industry experts." },
+  { icon: ListChecks, title: "Onboarding Offer", note: "Receive your admission result via email/phone and confirm your seat." },
 ]
 
 export default function JourneyWithApplication() {
@@ -50,30 +50,27 @@ export default function JourneyWithApplication() {
           <Card className="h-fit border border-[#2f6fed]/20 bg-gradient-to-br from-[#f0f6ff] to-white shadow-md">
             <CardHeader>
               <CardTitle className="text-xl text-[#1e3a8a]">
-                What to Expect
+                🚀 Semiconductor Internship (2026) Applications
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-slate-700">
               <p>
-                Hands-on practice with structured guidance and weekly mentor checkpoints. Build confidence through
-                practical work and clear milestones.
+                Applications Review Open: October 2025
               </p>
               <ul className="list-disc space-y-1 pl-5 marker:text-[#2f6fed]">
-                <li>Weekly live sessions and recorded modules</li>
-                <li>Curated reading and lab assignments</li>
-                <li>Portfolio-ready project artifacts</li>
-                <li>Interview preparation and referrals</li>
+                <li>Round 1 Deadline: 27th October 2025</li>
+                <li>Round 2 Deadline: 24th November 2025</li>
+                <li>Round 3 Deadline: 29th December 2025</li>
+                <li>Final Application Close: 8th January 2026</li>
+                <li>Internship Kick-off (Cohort 1): 12th January 2026</li>
               </ul>
-              <div className="pt-2">
-                <a
-                  href="#apply"
-                  className="inline-block rounded-md bg-[#2f6fed] px-4 py-2 text-sm font-medium text-white hover:bg-[#265dcc] shadow"
-                >
-                  Learn More
-                </a>
-              </div>
+              <p className="pt-2">
+                👉 Apply early to secure your spot in India’s first dedicated PG Program in Semiconductor.
+              </p>
+
             </CardContent>
           </Card>
+
 
           <Card className="border border-[#2f6fed]/20 bg-gradient-to-br from-white to-[#f0f6ff] shadow-md">
             <CardHeader>
@@ -81,8 +78,7 @@ export default function JourneyWithApplication() {
             </CardHeader>
             <CardContent>
               <div className="grid grid-cols-3 gap-6 text-center">
-                <Stat label="Days Until" value="1180" />
-                <Stat label="Final Seats" value="22800" />
+                <Stat label="Final Seats" value="25" />
 
                 <Button
                   className="rounded-md bg-[#2f6fed] px-6 py-2 text-sm font-semibold text-white 

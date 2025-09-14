@@ -17,25 +17,30 @@ export function AboutSection() {
           {/* Content */}
           <div className="p-10 md:p-14">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-              About <span className="text-blue-700">Us</span>
+              Who  <span className="text-blue-700"> We Are</span>
             </h2>
 
             <div className="space-y-5 text-base md:text-lg leading-relaxed">
               <p>
-                At <span className="font-semibold">ChipX Semiconductor School</span>, we are creating a new pathway for engineers 
-                to enter India’s fast-growing semiconductor industry.
+                At <span className="font-semibold">ChipX</span>, we are redefining how engineers
+                enter India’s booming semiconductor industry.
               </p>
 
               <p>
-                Today, most educational institutions don’t teach critical skills like Physical Design, EDA tools, 
-                and VLSI workflows. ChipX bridges this gap by providing industry-level training, hands-on projects, 
-                internships, and soft-skill development — everything an engineer needs to become job-ready.
+                Most colleges today don’t teach the practical skills that the
+                industry demands—like Physical Design, VLSI workflows, and EDA
+                tools. <span className="font-semibold">ChipX bridges this gap</span> with
+                hands-on projects, real-world internships, and professional
+                soft-skill training—everything engineers need to become
+                job-ready and industry-ready.
               </p>
 
               <p>
-                But ChipX is more than a skill & training program. It’s a career accelerator that partners with 
-                students from learning to placement, ensuring they are prepared to thrive in the billion dollar 
-                semiconductor opportunity in India.
+                But ChipX is more than a training school—it’s a{" "}
+                <span className="font-semibold">career accelerator</span>,
+                guiding students from learning to placement, ensuring they are
+                fully prepared to thrive in India’s multi-billion-dollar
+                semiconductor ecosystem.
               </p>
             </div>
 

@@ -2,10 +2,10 @@ import { Users, Handshake, Lightbulb, Shield } from "lucide-react"
 
 export function CoreValues() {
   const values = [
-    { icon: Users, title: "We are an excellent team", color: "from-blue-400 to-blue-600" },
-    { icon: Handshake, title: "We collaborate with customers.", color: "from-indigo-400 to-indigo-600" },
-    { icon: Lightbulb, title: "We innovate to grow.", color: "from-teal-400 to-teal-600" },
-    { icon: Shield, title: "We create an environment of complete trust, respect, integrity and honor.", color: "from-purple-400 to-purple-600" },
+    { icon: Users, title: "Excellence: We strive for the highest standards in everything we do", color: "from-blue-400 to-blue-600" },
+    { icon: Handshake, title: "Collaboration: We work closely with students, mentors, and industry partners.", color: "from-indigo-400 to-indigo-600" },
+    { icon: Lightbulb, title: "Innovation: We constantly evolve to meet the changing needs of the semiconductor world.", color: "from-teal-400 to-teal-600" },
+    { icon: Shield, title: "Integrity & Respect: We foster an environment of trust, honor, and professionalism.", color: "from-purple-400 to-purple-600" },
   ]
 
   return (

@@ -1,81 +1,72 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
-import { Users, Award, Rocket } from "lucide-react"
+import { cn } from "@/lib/utils";
+import { Users, Award, Rocket } from "lucide-react";
 
 export function PartnerBanner({ className }: { className?: string }) {
     return (
         <section
             className={cn(
-                "relative w-full  py-20 text-blue-950",
+                "relative w-full py-12 sm:py-16 px-4 sm:px-6 lg:px-8 text-blue-950",
                 className
             )}
             aria-labelledby="partner-banner-title"
         >
             {/* Decorative background gradient circles */}
-          <div aria-hidden="true">
-  <div className="pointer-events-none absolute -left-40 top-1/10 h-96 w-96 rounded-full border-4 border-blue-200 opacity-30" />
-  <div className="pointer-events-none absolute -right-40 top-1/2 h-96 w-96 rounded-full border-4 border-blue-200 opacity-20" />
-</div>
+            <div aria-hidden="true">
+                <div className="pointer-events-none absolute -left-40 top-1/10 h-72 w-72 sm:h-80 sm:w-80 rounded-full border-4 border-blue-200 opacity-30" />
+                <div className="pointer-events-none absolute -right-0 top-1/2 h-72 w-72 sm:h-80 sm:w-80 rounded-r-full border-4 border-blue-200 opacity-20 overflow-hidden" />
+            </div>
 
-
-            {/* Content wrapper with equal spacing */}
-            <div className="relative z-10 mx-auto max-w-6xl px-6 ">
-                <div className="rounded-2xl bg-white/60 backdrop-blur-sm shadow-lg px-8 py-12 md:px-16 md:py-16 text-center ">
+            {/* Content wrapper */}
+            <div className="relative z-10 mx-auto max-w-6xl">
+                <div className="rounded-2xl bg-white/60 backdrop-blur-sm shadow-lg px-5 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12 text-center">
                     <h2
                         id="partner-banner-title"
-                        className="font-extrabold text-[clamp(2rem,4vw,3rem)] leading-tight"
+                        className="font-extrabold text-xl sm:text-2xl lg:text-3xl leading-snug"
                     >
                         Partner With <span className="text-blue-700">ChipX</span>
                     </h2>
 
-                    <p className="mt-6 text-[clamp(1rem,1.5vw,1.25rem)] leading-relaxed text-blue-800 max-w-3xl mx-auto">
-                        Join forces with{" "}
-                        <span className="font-semibold text-blue-900">ChipX</span> to empower
-                        your students with a{" "}
-                        <span className="font-semibold text-blue-900">
-                            global-standard semiconductor internship program
-                        </span>{" "}
-                        that delivers real-world impact from day one.
+                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto">
+                        At ChipX, we believe in building the future of semiconductors together with universities, colleges, and student communities.
                     </p>
 
-                    {/* CTA buttons */}
-                    <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-                        {/* <Button className="rounded-md bg-blue-900 px-8 py-3 text-lg font-semibold text-white shadow-lg hover:bg-blue-800 transition">
-                            Apply Now
-                        </Button> */}
-                        <Button
-                            variant="outline"
-                            className="rounded-md border border-blue-300 bg-white px-8 py-3 text-lg font-semibold text-blue-900 shadow-lg hover:bg-blue-800 transition cursor-pointer"
-                        >
-                            Partner With Us
-                        </Button>
-                    </div>
+                    <ul className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto text-left list-disc list-inside space-y-2">
+                        <li>Internships – Industry-ready semiconductor internships for your students with hands-on tools & projects.</li>
+                        <li>PG Programs – Long-term career programs in Physical Design & VLSI specialization.</li>
+                        <li>Workshops & Webinars – Expert-led sessions to introduce students to chip design, EDA tools, and semiconductor careers.</li>
+                        <li>College Fests & Events – Partner with ChipX to bring exciting VLSI competitions, talks, and panel discussions to your campus.</li>
+                        <li>Conferences – Co-create Semiconductor Summits & Conferences with ChipX to put your institution on India’s semiconductor map.</li>
+                    </ul>
 
-                    {/* Trust badges */}
-                    <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-3">
-                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-6 py-5 shadow hover:shadow-md transition">
-                            <Users className="h-8 w-8 text-blue-500" />
-                            <span className="text-sm font-medium text-blue-900">
-                                Trusted by Institutions
+                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto">
+                        ✨ From universities and engineering departments to T&P cells, E-Cells, student clubs, and professional societies — ChipX welcomes collaborations to nurture and empower the next generation of semiconductor innovators.
+                    </p>
+
+                    {/* Optional trust badges */}
+                    <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-4 py-4 shadow hover:shadow-md transition">
+                            <Users className="h-6 w-6 text-blue-500" />
+                            <span className="text-xs sm:text-sm font-medium text-blue-900 text-center">
+                                Trusted by institutions & student communities
                             </span>
                         </div>
-                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-6 py-5 shadow hover:shadow-md transition">
-                            <Award className="h-8 w-8 text-yellow-500" />
-                            <span className="text-sm font-medium text-blue-900">
-                                Industry-Ready Curriculum
+                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-4 py-4 shadow hover:shadow-md transition">
+                            <Award className="h-6 w-6 text-yellow-500" />
+                            <span className="text-xs sm:text-sm font-medium text-blue-900 text-center">
+                                Industry-ready PG Programs & internships
                             </span>
                         </div>
-                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-6 py-5 shadow hover:shadow-md transition">
-                            <Rocket className="h-8 w-8 text-pink-500" />
-                            <span className="text-sm font-medium text-blue-900">
-                                Global Internship Access
+                        <div className="flex flex-col items-center gap-2 rounded-xl bg-white px-4 py-4 shadow hover:shadow-md transition">
+                            <Rocket className="h-6 w-6 text-pink-500" />
+                            <span className="text-xs sm:text-sm font-medium text-blue-900 text-center">
+                                Workshops, webinars & conferences
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+    );
 }

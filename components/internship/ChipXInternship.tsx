@@ -45,12 +45,13 @@ export default function ChipXInternship() {
     },
   ]
 
-  const benefits = [
-    "100% Industry Training",
-    "Hands-on with Industry EDA Tools",
-    "Real-World Internship Projects",
-    "Career Mentorship & Soft Skills",
-  ]
+const benefits = [
+  "100% Industry-Integrated Training — Learn workflows used at leading semiconductor companies.",
+  "Hands-on with EDA Tools — Train on Synopsys, Cadence & Siemens tools, the global industry standard.",
+  "Real-World Internship Projects — Build a portfolio that proves you’re job-ready.",
+  "Career Mentorship & Soft Skills — Get guidance on interviews, communication, and global teamwork.",
+]
+
 
   return (
     <section className="relative w-full max-w-full mx-auto px-6 py-12 space-y-16 bg-gradient-to-b from-gray-50 via-blue-50 to-gray-100 overflow-hidden">
@@ -58,8 +59,8 @@ export default function ChipXInternship() {
       <div className="text-center space-y-3">
         <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">
           ChipX{" "}
-          <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-indigo-600 relative inline-block ">
-            Internship Journey
+          <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-indigo-600 relative inline-block">
+            Semiconductor Journey
             <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-400/70 rounded-full translate-y-2"></span>
           </span>
         </h1>
@@ -72,13 +73,10 @@ export default function ChipXInternship() {
       {/* Highlights */}
       <div className="relative bg-white border border-blue-200 shadow-lg rounded-2xl p-10 max-w-5xl mx-auto">
         <div className="space-y-6 text-center">
-          <h3 className="text-2xl font-semibold text-gray-900">
-            The Future of Semiconductors
-          </h3>
+          <h3 className="text-2xl font-semibold text-gray-900">The Future of Semiconductors</h3>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
-            India’s semiconductor sector is poised for exponential growth. At ChipX,
-            we prepare you with the tools, training, and experience to be part of this
-            revolution.
+            India’s semiconductor sector is on the rise — projected to become a $5Bn+ opportunity by 2032,
+            with a need for over 2,35,000 skilled engineers. At ChipX, we prepare you to be part of this revolution.
           </p>
 
           <ul className="grid gap-4 sm:grid-cols-3 text-left text-gray-800 max-w-3xl mx-auto">
@@ -87,9 +85,7 @@ export default function ChipXInternship() {
                 1
               </div>
               <span>
-                <strong>$5Bn+ Opportunity:</strong> India needs{" "}
-                <span className="text-blue-700 font-medium">50,000+ engineers</span>{" "}
-                by 2030.
+                <strong>$5Bn+ Opportunity:</strong> Be industry-ready for India’s fastest-growing high-tech sector.
               </span>
             </li>
             <li className="flex items-start gap-3 bg-blue-50 border border-blue-100 p-4 rounded-xl">
@@ -97,9 +93,7 @@ export default function ChipXInternship() {
                 2
               </div>
               <span>
-                <strong>Career Ready:</strong> ChipX equips you with{" "}
-                <span className="text-blue-700 font-medium">industry skills</span> and
-                mentorship.
+                <strong>Career Ready:</strong> Gain practical skills, mentorship, and confidence to crack semiconductor jobs.
               </span>
             </li>
             <li className="flex items-start gap-3 bg-blue-50 border border-blue-100 p-4 rounded-xl">
@@ -107,9 +101,7 @@ export default function ChipXInternship() {
                 3
               </div>
               <span>
-                <strong>Expert Training:</strong> Learn with{" "}
-                <span className="text-blue-700 font-medium">Synopsys EDA tools</span>{" "}
-                and top professionals.
+                <strong>Expert Training:</strong> Hands-on learning with Synopsys, Cadence &amp; Siemens EDA tools guided by industry leaders.
               </span>
             </li>
           </ul>
@@ -119,6 +111,7 @@ export default function ChipXInternship() {
           </Button>
         </div>
       </div>
+
 
 
       {/* Phases */}
@@ -164,7 +157,7 @@ export default function ChipXInternship() {
         <h2 className="text-2xl font-semibold text-center mb-6 text-gray-900">
           Why{" "}
           <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-indigo-600 relative inline-block">
-            ChipX?
+            ChipX Internship ?
             <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-400/70 rounded-full translate-y-2"></span>
           </span>
         </h2>
@@ -178,7 +171,7 @@ export default function ChipXInternship() {
               <div className="flex-shrink-0 rounded-full bg-blue-200 p-2">
                 <Check className="h-5 w-5 text-blue-700" />
               </div>
-              <span>{b}</span>
+              <span className="text-sm">{b}</span>
             </li>
           ))}
         </ul>

@@ -2,21 +2,22 @@
 
 export default function StatisticsOverview() {
   return (
-    <div className="max-w-full">
-      <div className="my-12 ml-30">
-        <h1 className="text-4xl font-semibold text-gray-800 mb-2">
+    <div className="max-w-full px-4 sm:px-6 lg:px-8">
+      {/* Heading */}
+      <div className="my-12 sm:ml-0 lg:ml-30">
+        <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 mb-2">
           An <span className="text-blue-500 italic font-light">overview</span>
         </h1>
-        <div className="w-24 h-1 bg-blue-400"></div>
+        <div className="w-20 sm:w-24 h-1 bg-blue-400"></div>
       </div>
 
       {/* Statistics Grid */}
-      <div className="grid grid-cols-6 gap-0 bg-gray-50 border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-16 -ml-60">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-0 bg-gray-50 border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-16 sm:-ml-0 lg:-ml-60">
         {/* First Row */}
-        <div className="p-8 bg-gray-100"></div>
+        <div className="p-8 bg-gray-100 hidden lg:block"></div>
 
-        <div className="p-8 border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             7
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -27,8 +28,8 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             2000+
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -36,8 +37,8 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             200+
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -45,17 +46,17 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             25+
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
-            Workshops/ Bootcamps
+            Workshops / Bootcamps
           </div>
         </div>
 
         <div className="p-8 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             4
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -64,10 +65,10 @@ export default function StatisticsOverview() {
         </div>
 
         {/* Second Row */}
-        <div className="p-8 border-gray-200 border-t bg-gray-100"></div>
+        <div className="p-8 border-gray-200 border-t bg-gray-100 hidden lg:block"></div>
 
-        <div className="p-8 border-r border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-t border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             12
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -75,17 +76,17 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-t border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             250+
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
-            Hours of career prep
+            Hours of Career Prep
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-t border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             150+
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -93,8 +94,8 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-r border-gray-200 border-t bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-b sm:border-r border-t border-gray-200 bg-gray-50 hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             6
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">
@@ -102,8 +103,8 @@ export default function StatisticsOverview() {
           </div>
         </div>
 
-        <div className="p-8 border-gray-200 border-t bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
-          <div className="text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
+        <div className="p-8 border-t border-gray-200 bg-white hover:bg-blue-50 group cursor-pointer transition-all duration-200">
+          <div className="text-3xl sm:text-4xl font-light text-gray-800 mb-2 group-hover:text-blue-600">
             4
           </div>
           <div className="text-gray-600 font-medium group-hover:text-blue-600">

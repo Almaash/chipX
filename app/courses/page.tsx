@@ -7,6 +7,10 @@ import StatisticsOverview from "@/components/courses/StatisticsOverview";
 import AdmissionsPage from "@/components/courses/AdmissionsPage";
 import { Hero } from "@/components/courses/Hero";
 import Header from "@/components/header";
+import { CourseDetails } from "@/components/courses/CourseDetails";
+import { PhysicalDesignJourney } from "@/components/courses/PhysicalDesignJourney";
+import { CertificationCourseTimeline } from "@/components/courses/certification-course-timeline";
+import JourneyWithCourseApplication from "@/components/courses/JourneyWithCourseApplication";
 
 export default function CoursesPage() {
   return (
@@ -15,6 +19,10 @@ export default function CoursesPage() {
       <Hero />
       <ProgramInfo />
       <StatisticsOverview />
+      <CourseDetails />
+      <PhysicalDesignJourney />
+      <CertificationCourseTimeline />
+      <JourneyWithCourseApplication />
       <Courses />
       <AdmissionsPage />
       <Footer />

@@ -7,22 +7,22 @@ export function FiveReasons() {
   const highlights = [
     {
       title: "Focused First",
-      desc: "Starting with Physical Design Engineering, the most in-demand VLSI role.",
+      desc: "Specializing in Physical Design Engineering, the most in-demand VLSI role.",
       icon: Cpu,
     },
     {
-      title: "Hands-On",
-      desc: "Access to Synopsys EDA tools & real-world projects.",
+      title: "Hands-On Learning",
+      desc: " Access to Synopsys, Cadence, and Siemens EDA tools, plus real-world projects.",
       icon: Hammer,
     },
     {
       title: "Internship Pathway",
-      desc: "Learn → Intern → Placement support for a complete career roadmap.",
+      desc: "Structured Learn → Intern → Placement roadmap for career success.",
       icon: Briefcase,
     },
     {
       title: "Beyond Tech",
-      desc: "Soft skills & personality development for confident communication.",
+      desc: "Soft skills and personality development for confident communication and leadership",
       icon: Users,
     },
     {
