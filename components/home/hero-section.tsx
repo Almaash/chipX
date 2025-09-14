@@ -56,7 +56,7 @@ export default function HeroSection() {
           >
             Apply Now →
           </Button>
-          <p className="text-gray-400 text-sm pt-10">*Note learn more goes to about us page</p>
+          {/* <p className="text-gray-400 text-sm pt-10">*Note learn more goes to about us page</p> */}
         </div>
       </div>
 

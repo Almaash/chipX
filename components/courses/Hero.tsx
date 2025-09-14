@@ -27,7 +27,7 @@ export function Hero() {
             </Button>
           </div>
           <div className="mt-4 inline-flex items-center gap-2 text-xs md:text-sm text-slate-300">
-            <Sparkles className="h-4 w-4 text-[#2f6fed]" />
+            {/* <Sparkles className="h-4 w-4 text-[#2f6fed]" /> */}
             🚀 Admissions for the 2026 Cohort are now open!
           </div>
         </div>

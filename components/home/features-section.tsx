@@ -13,7 +13,7 @@ import {
 const features = [
   {
     icon: <GraduationCap className="w-4 h-4 sm:w-6 sm:h-6 text-white" />,
-    title: "5000+ Alumni ",
+    title: "50+ Alumni ",
     // title: "5000+ Alumni Shining Globally",
     color: "bg-indigo-500",
   },

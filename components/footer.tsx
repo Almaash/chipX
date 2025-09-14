@@ -28,8 +28,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="max-w-md pt-5">
-              India's premier startup-focused semicunductor school, empowering
-              the next generation of entrepreneurial leaders.
+              India’s Leading VLSI & Semiconductor School
+              Shaping the next generation of chip designers, innovators, and industry leaders.
             </p>
           </div>
 
@@ -48,8 +48,8 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li>Email: info@chipx.edu</li>
-              <li>Phone: +91 98765 43210</li>
+              <li>Email: chipx.ind@gmail.com</li>
+              <li>Phone: +91-88778 09827</li>
               <li>
                 <Link
                   href="/contact"

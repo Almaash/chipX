@@ -45,7 +45,7 @@ export default function ContactPage() {
                 📞 +91-88778 09827
               </a>
             </p>
-            <p className="text-blue-400 font-semibold text-xl sm:text-2xl">📩 chipx.ind@gmail.com</p>
+            <p className="text-blue-400 font-semibold text-xl ">📩 chipx.ind@gmail.com</p>
           </div>
 
           <p className="mt-3 text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">

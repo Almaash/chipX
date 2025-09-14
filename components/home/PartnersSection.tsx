@@ -40,8 +40,7 @@ export default function PartnersSection() {
             </ul>
 
             <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-md">
-              🌐 With <span className="font-bold text-gray-900">ChipX</span>, you gain the skills, projects, and confidence to step into companies like{" "}
-              <strong>Synopsys, Cadence, Intel, Qualcomm</strong>, and more.
+              🌐 With <span className="font-bold text-gray-900">ChipX</span>, you gain the skills, projects, and confidence to step into companies Qualcomm, MediaTek, Infineon, Intel, Synopsys, Cadence, and more
             </p>
 
             <Button

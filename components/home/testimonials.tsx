@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     message:
       "ChipX transformed my understanding of semiconductors with its dynamic online courses. The expert instructors and engaging content made complex topics accessible. I especially appreciated the interactive elements, which kept me motivated throughout. An excellent resource for anyone eager to deepen their industry knowledge!",
-    name: "Hadi Abbas",
+    name: "Rajat Chaturvedi",
     title: "PD Engineer Program 2025",
     image: "/images/testmonial2.jpeg",
   },

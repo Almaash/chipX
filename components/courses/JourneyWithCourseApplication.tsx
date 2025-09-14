@@ -32,12 +32,12 @@ export default function JourneyWithCourseApplication() {
               <Card className="flex-1 border border-[#2f6fed]/20 bg-[#f9faff] hover:shadow-md transition">
                 <CardContent className="flex items-center justify-between">
                   <div>
-                    <div className="text-sm font-semibold text-[#1e3a8a]">
+                    <div className="text-base font-semibold text-[#1e3a8a]">
                       {s.title}
                     </div>
                     <div className="text-xs text-slate-600">{s.note}</div>
                   </div>
-                  <div className="text-[10px] font-medium text-[#2f6fed] bg-[#2f6fed]/10 px-2 py-0.5 rounded-md">
+                  <div className="text-[15px] font-medium text-[#2f6fed] bg-[#2f6fed]/10 px-2 py-0.5 rounded-md">
                     Step {i + 1}
                   </div>
                 </CardContent>

@@ -45,7 +45,7 @@ const courses = [
       "✔ Gain hands-on experience with real industry projects at advanced nodes (14nm, 7nm, 4nm)",
       "✔ Build professional communication & interview-ready soft skills for semiconductor careers",
     ],
-    tag2: "📄 Offer Letter + Certificate of Completion",
+    tag2: "Offer Letter + Certificate of Completion + Experience Letter",
     tag: "Globally Competitive Semiconductor Engineer",
     image: "/images/office2.jpg",
   },

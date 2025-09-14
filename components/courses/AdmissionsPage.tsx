@@ -72,7 +72,7 @@ export default function AdmissionsPage() {
                   <br />
                   Admission
                   <br />
-                  Process <span className="font-normal">DECODED</span>
+                  Now <span className="font-normal">OPEN</span>
                 </h2>
               </div>
             </div>

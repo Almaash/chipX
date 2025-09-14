@@ -28,7 +28,7 @@ export function PartnerBanner({ className }: { className?: string }) {
                         Partner With <span className="text-blue-700">ChipX</span>
                     </h2>
 
-                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto">
+                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto font-bold">
                         At ChipX, we believe in building the future of semiconductors together with universities, colleges, and student communities.
                     </p>
 
@@ -40,8 +40,8 @@ export function PartnerBanner({ className }: { className?: string }) {
                         <li>Conferences – Co-create Semiconductor Summits & Conferences with ChipX to put your institution on India’s semiconductor map.</li>
                     </ul>
 
-                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto">
-                        ✨ From universities and engineering departments to T&P cells, E-Cells, student clubs, and professional societies — ChipX welcomes collaborations to nurture and empower the next generation of semiconductor innovators.
+                    <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto font-bold">
+                        ✨ From universities and engineering departments to Training & Placement cells, E-Cells, student clubs, and professional societies — ChipX welcomes collaborations to nurture and empower the next generation of semiconductor innovators.
                     </p>
 
                     {/* Optional trust badges */}

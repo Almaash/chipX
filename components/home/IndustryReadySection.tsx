@@ -55,7 +55,7 @@ export default function IndustryReadySection() {
               What’s missing in colleges today:
             </p>
 
-            <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm lg:text-xs xl:text-sm text-gray-700 leading-relaxed list-decimal list-inside">
+            <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm lg:text-xs xl:text-sm text-gray-700 leading-relaxed list-disc list-inside">
               <li>
                 No hands-on training from RTL to GDSII with industry-standard
                 tools like <strong>Synopsys, Cadence, and Siemens EDA</strong>.

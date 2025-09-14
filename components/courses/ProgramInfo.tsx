@@ -45,14 +45,14 @@ export default function ProgramInfo() {
             value: "Fresh graduates & engineers with 0–6 years experience",
           },
           {
-            icon: <Calendar size={16} className="text-blue-500" />,
-            label: "Starting Date",
-            value: "April 2026",
+            icon: <CheckSquare size={16} className="text-blue-500" />,
+            label: "Assessment",
+            value: "Projects, Exams & Labs",
           },
           {
-            icon: <Calendar size={16} className="text-blue-500" />,
-            label: "Application Deadline",
-            value: "Round 3 – 23rd March 2026",
+            icon: <CheckSquare size={16} className="text-blue-500" />,
+            label: "Certification",
+            value: "Industry-recognized PG Certificate",
           },
           {
             icon: <MapPin size={16} className="text-blue-500" />,
@@ -66,15 +66,16 @@ export default function ProgramInfo() {
             value: "Full-Time | Campus + Hybrid Learning",
             span: 2,
           },
+          
           {
-            icon: <CheckSquare size={16} className="text-blue-500" />,
-            label: "Assessment",
-            value: "Projects, Exams & Labs",
+            icon: <Calendar size={16} className="text-blue-500" />,
+            label: "Starting Date",
+            value: "April 2026",
           },
           {
-            icon: <CheckSquare size={16} className="text-blue-500" />,
-            label: "Certification",
-            value: "Industry-recognized PG Certificate",
+            icon: <Calendar size={16} className="text-blue-500" />,
+            label: "Application Deadline",
+            value: "Round 3 – 23rd March 2026",
           },
         ].map((item, index) => (
           <Card
