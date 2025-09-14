@@ -40,7 +40,7 @@ export default function PartnersSection() {
             </ul>
 
             <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-md">
-              🌐 With <span className="font-bold text-gray-900">ChipX</span>, you gain the skills, projects, and confidence to step into companies Qualcomm, MediaTek, Infineon, Intel, Synopsys, Cadence, and more
+              🌐 With <span className="font-bold text-gray-900">ChipX</span>, you gain the skills, projects, and confidence to step into companies like Qualcomm, MediaTek, Infineon, Intel, Synopsys, Cadence, and more
             </p>
 
             <Button
@@ -52,7 +52,7 @@ export default function PartnersSection() {
             </Button>
 
             <p className="text-gray-300 text-[10px] sm:text-xs">
-              * Logos are the trademarks of the respective organizations.
+              * Logos and companies names are the trademarks of the respective organizations.
             </p>
           </div>
 

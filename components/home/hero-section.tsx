@@ -45,7 +45,7 @@ export default function HeroSection() {
              Built by Engineers from <br />
               <span className="text-[#38BDF8] font-semibold">
                IEEE–ASME New York
-              </span>&  Global Semiconductor Leaders
+              </span> &  Global Semiconductor Leaders
 
             </p>
           </div>
