@@ -24,9 +24,9 @@ export default function Page() {
       <ChipXInternship />
       <WhyChoose />
       <CertificationTimeline />
-      <PartnerBanner />
       <InternshipDetails />
       <JourneyWithApplication />
+      <PartnerBanner />
       <Footer />
     </main>
   )

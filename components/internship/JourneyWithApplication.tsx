@@ -36,7 +36,7 @@ export default function JourneyWithApplication() {
                     </div>
                     <div className="text-xs text-slate-600">{s.note}</div>
                   </div>
-                  <div className="text-[10px] font-medium text-[#2f6fed] bg-[#2f6fed]/10 px-2 py-0.5 rounded-md">
+                  <div className="text-[15px] font-medium text-[#2f6fed] bg-[#2f6fed]/10 px-2 py-0.5 rounded-md">
                     Step {i + 1}
                   </div>
                 </CardContent>
@@ -65,7 +65,7 @@ export default function JourneyWithApplication() {
                 <li>Internship Kick-off (Cohort 1): 12th January 2026</li>
               </ul>
               <p className="pt-2">
-                👉 Apply early to secure your spot in India’s first dedicated PG Program in Semiconductor.
+                👉 Apply early to secure your spot in India's first Industry - Integrated Semiconductor Internship.
               </p>
 
             </CardContent>

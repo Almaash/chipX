@@ -45,21 +45,40 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Contact</h3>
-            <ul className="space-y-2">
-              <li>Email: chipx.ind@gmail.com</li>
-              <li>Phone: +91-88778 09827</li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="hover:text-accent transition-colors"
-                >
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
+         <div>
+  <h3 className="font-semibold text-lg mb-4">Contact</h3>
+  <ul className="space-y-2">
+    <li>
+      Email:{" "}
+      <a
+        href="mailto:chipx.ind@gmail.com"
+        className="hover:text-accent transition-colors"
+      >
+        chipx.ind@gmail.com
+      </a>
+    </li>
+    <li>
+      Phone:{" "}
+      <a
+        href="https://wa.me/918877809827"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-accent transition-colors"
+      >
+        +91-88778 09827
+      </a>
+    </li>
+    <li>
+      <Link
+        href="/contact"
+        className="hover:text-accent transition-colors"
+      >
+        Contact Us
+      </Link>
+    </li>
+  </ul>
+</div>
+
         </div>
 
 

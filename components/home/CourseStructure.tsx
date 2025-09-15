@@ -5,7 +5,7 @@ import Link from "next/link";
 const courses = [
   {
     id: 1,
-    title: "Semiconductor Internship – ChipX Internship",
+    title: "Semiconductor Internship by ChipX",
     semiHeader: "ChipX Internship Program",
     learners: "2,000+ Learners | Duration: 30 Days – 6 Months | Online & Hybrid",
     description:
@@ -71,7 +71,7 @@ const courses = [
     ],
     tag: "Completion Certificate",
     image: "/images/office3.jpg",
-    link: "https://luma.com/dztcpcy6",
+    link: "/contact",
   },
 ];
 

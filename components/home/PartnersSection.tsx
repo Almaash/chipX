@@ -54,7 +54,7 @@ export default function PartnersSection() {
               </Button>
             </Link>
 
-            <p className="text-gray-300 text-[10px] sm:text-xs">
+            <p className="text-gray-300 text-[10px] sm:text-xs pt-10">
               * Logos and companies names are the trademarks of the respective organizations.
             </p>
           </div>
