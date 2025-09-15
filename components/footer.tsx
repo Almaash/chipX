@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="max-w-md pt-5">
-              India’s Leading VLSI & Semiconductor School <br />
+              India’s Leading VLSI & Semiconductor School. <br />
               Shaping the next generation of chip designers, innovators, and industry leaders.
             </p>
           </div>

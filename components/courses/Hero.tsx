@@ -24,7 +24,7 @@ export function Hero() {
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href="https://luma.com/dztcpcy6"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
               <Button className="bg-[#2f6fed] hover:bg-[#265dcc] text-sm md:text-base px-5 py-2 md:px-6 md:py-3 cursor-pointer">

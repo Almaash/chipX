@@ -40,28 +40,28 @@ export function CourseDetails() {
         <div className="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-md">
           <h3 className="text-xl font-semibold text-slate-900 mb-4">What You’ll Master at ChipX</h3>
           <ul className="space-y-3 text-slate-700">
-            <li>⚡ Place & Route (PnR): Implement circuits on silicon with precision</li>
-            <li>✅ Physical Verification (PV): Ensure designs meet manufacturing standards</li>
-            <li>⏱ Static Timing Analysis (STA) & IR Drop Analysis: Guarantee performance & reliability</li>
-            <li>📏 Sign-off Methodologies: Proven industry checks before fabrication</li>
-            <li>🌀 Synthesis to GDSII Flow: End-to-end backend VLSI design training</li>
-            <li>🛠 Hands-on with Synopsys, Cadence & Siemens EDA tools guided by experts</li>
+            <li>⚡ Place & Route (PnR): Implement circuits on silicon with precision.</li>
+            <li>✅ Physical Verification (PV): Ensure designs meet manufacturing standards.</li>
+            <li>⏱ Static Timing Analysis (STA) & IR Drop Analysis: Guarantee performance & reliability.</li>
+            <li>📏 Sign-off Methodologies: Proven industry checks before fabrication.</li>
+            <li>🌀 Synthesis to GDSII Flow: End-to-end backend VLSI design training.</li>
+            <li>🛠 Hands-on with Synopsys, Cadence & Siemens EDA tools guided by experts.</li>
           </ul>
         </div>
 
         {/* Why ChipX PG Program is Different */}
         <div className="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-md">
           <h3 className="text-xl font-semibold text-slate-900 mb-4">
-            Why ChipX PG Program is Different
+            Why ChipX PG Program is Different.
           </h3>
           <ul className="space-y-3 text-slate-700">
-            <li>🔬 Real-Time Projects — industry-level designs, not just theory</li>
-            <li>🏭 Industry Labs — real-world chip design workflows</li>
-            <li>👨‍🏫 Mentorship — 10+ years of PD experience</li>
+            <li>🔬 Real-Time Projects — industry-level designs, not just theory.</li>
+            <li>🏭 Industry Labs — real-world chip design workflows.</li>
+            <li>👨‍🏫 Mentorship — 10+ years of PD experience.</li>
             <li>📂 Capstone Projects — build an industry-ready portfolio</li>
-            <li>💼 Placement-Ready — resume, interview prep & referrals</li>
-            <li>🚀 Fast-Track Career — PD engineers earn up to ₹30 LPA in India</li>
-            <li>🤝 Networking — connect with peers in Bengaluru’s VLSI hub</li>
+            <li>💼 Placement-Ready — resume, interview prep & referrals.</li>
+            <li>🚀 Fast-Track Career — PD engineers earn up to ₹30 LPA in India.</li>
+            <li>🤝 Networking — connect with peers in Bengaluru’s VLSI hub.</li>
           </ul>
         </div>
       </div>

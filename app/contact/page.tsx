@@ -45,7 +45,14 @@ export default function ContactPage() {
                 📞 +91-88778 09827
               </a>
             </p>
-            <p className="text-blue-400 font-semibold text-xl ">📩 chipx.ind@gmail.com</p>
+            <p className="font-semibold text-xl sm:text-2xl">
+              <a
+                href="mailto:chipx.ind@gmail.com"
+                className="text-blue-400 hover:text-green-500 transition-colors"
+              >
+                📩 chipx.ind@gmail.com
+              </a>
+            </p>
           </div>
 
           <p className="mt-3 text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -56,7 +63,7 @@ export default function ContactPage() {
           <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
             <a
               href="https://luma.com/dztcpcy6"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
 
@@ -66,7 +73,7 @@ export default function ContactPage() {
             </a>
             <a
               href="https://luma.com/ja6ly2xt"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
 
@@ -84,15 +91,15 @@ export default function ContactPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-0">
         <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Map Section */}
-       <div className="w-full h-[300px] sm:h-[400px] md:h-[450px] rounded-xl shadow-2xl border overflow-hidden">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.132691798345!2d77.70217939999999!3d12.9633599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ab1884f719%3A0xd72102ad7e3b3947!2sWeWork%20Roshni%20Tech%20Hub%20%E2%80%93%20Coworking%20%26%20Office%20Space%20in%20Marathahalli%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1756374929694!5m2!1sen!2sin"
-    className="w-full h-full rounded-xl shadow-lg border-0"
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  />
-</div>
+          <div className="w-full h-[300px] sm:h-[400px] md:h-[450px] rounded-xl shadow-2xl border overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.132691798345!2d77.70217939999999!3d12.9633599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ab1884f719%3A0xd72102ad7e3b3947!2sWeWork%20Roshni%20Tech%20Hub%20%E2%80%93%20Coworking%20%26%20Office%20Space%20in%20Marathahalli%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1756374929694!5m2!1sen!2sin"
+              className="w-full h-full rounded-xl shadow-lg border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
 
 
           {/* Content Section */}
@@ -110,7 +117,7 @@ export default function ContactPage() {
             <div className="flex justify-center md:justify-start">
               <a
                 href="https://luma.com/2kcayp93"
-                target="_blank"
+                // target="_blank"
                 rel="noopener noreferrer"
               >
 

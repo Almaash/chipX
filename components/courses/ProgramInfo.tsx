@@ -27,7 +27,7 @@ export default function ProgramInfo() {
           </p>
           <a
             href="https://luma.com/dztcpcy6"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
           >
 

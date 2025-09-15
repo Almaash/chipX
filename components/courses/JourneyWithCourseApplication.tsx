@@ -85,7 +85,7 @@ export default function JourneyWithCourseApplication() {
                 <Stat label="Final Seats" value="25" />
                 <a
                   href="https://luma.com/dztcpcy6"
-                  target="_blank"
+                  // target="_blank"
                   rel="noopener noreferrer"
                 >
 

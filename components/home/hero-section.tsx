@@ -37,7 +37,7 @@ export default function HeroSection() {
             </p>
             <p className="text-lg max-lg:text-base md:text-xl text-gray-300">
               PG Program in Semiconductor – Specialization in Physical Design <br />
-              Intensive 6-Month Training + Real-World Internship
+              Intensive 6-Month Training + Real-World Internship.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function HeroSection() {
               Built by Engineers from <br />
               <span className="text-[#38BDF8] font-semibold">
                 IEEE–ASME New York
-              </span> &  Global Semiconductor Leaders
+              </span> &  Global Semiconductor Leaders.
 
             </p>
           </div>

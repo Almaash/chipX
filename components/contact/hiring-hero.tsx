@@ -40,7 +40,7 @@ export function HiringHero({ className }: { className?: string }) {
           <div className="mt-4 sm:mt-6 flex flex-col md:flex-row justify-center md:justify-start gap-3">
               <a
               href="https://luma.com/4gs7iig9"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
 
@@ -51,7 +51,7 @@ export function HiringHero({ className }: { className?: string }) {
             </a>
               <a
               href="https://luma.com/ja6ly2xt"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
 

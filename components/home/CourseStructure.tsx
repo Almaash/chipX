@@ -170,7 +170,7 @@ export default function CourseStructure() {
                     </div>
                     <Link
                       href={course.link}
-                      target="_blank"
+                      // target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center space-x-2 bg-black text-xs sm:text-sm text-white px-4 py-2 rounded-full hover:bg-green-700 transition mt-2 w-full"
                     >

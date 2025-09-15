@@ -22,7 +22,7 @@ export function FiveReasons() {
     },
     {
       title: "Beyond Tech",
-      desc: "Soft skills and personality development for confident communication and leadership",
+      desc: "Soft skills and personality development for confident communication and leadership.",
       icon: Users,
     },
     {

@@ -93,7 +93,7 @@ export function PartnerBanner({ className }: { className?: string }) {
                     <div className="mt-10">
                         <a
                             href="https://luma.com/ja6ly2xt"
-                            target="_blank"
+                            // target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block px-6 py-3 rounded-full bg-blue-600 text-white font-semibold shadow-md hover:bg-blue-700 transition"
                         >

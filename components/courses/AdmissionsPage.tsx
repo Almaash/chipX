@@ -41,7 +41,7 @@ export default function AdmissionsPage() {
 
             <a
               href="https://luma.com/dztcpcy6"
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
             >
               <Button className="bg-gray-800 hover:bg-gray-700 text-white px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base lg:text-xs xl:text-sm font-semibold flex items-center gap-2 mx-auto lg:mx-0 cursor-pointer">

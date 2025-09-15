@@ -156,7 +156,7 @@ export default function Courses() {
                       </div>
                       <a
                         href={course.link}
-                        target="_blank"
+                        // target="_blank"
                         rel="noopener noreferrer"
                       >
                         <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium shadow-md hover:bg-blue-700 transition mt-5 cursor-pointer">

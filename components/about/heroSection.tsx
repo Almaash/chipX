@@ -16,12 +16,12 @@ export function HeroSection() {
         <div className="flex-1 mb-10 md:mb-0 md:pr-8 lg:pr-12 text-center md:text-left pt-20 sm:pt-10">
           {/* Biggest text */}
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
-            About ChipX – <br /> India’s First Dedicated Semiconductor School
+            About ChipX – <br /> India’s First Dedicated Semiconductor School.
           </h1>
 
           {/* Medium text */}
           <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-2 sm:mb-3">
-            No.1 in VLSI & Embedded Systems Training
+            No.1 in VLSI & Embedded Systems Training.
           </h2>
 
 

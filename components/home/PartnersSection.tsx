@@ -36,8 +36,8 @@ export default function PartnersSection() {
 
             <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-700">
               <li>✅ PG Programs in Semiconductor (Physical Design & Beyond) — Built for job-ready skills</li>
-              <li>✅ Practical Training & Internships — Accepted by leading semiconductor giants</li>
-              <li>✅ Industry-Ready Curriculum — Designed by engineers from IEEE-ASME & global semicon leaders</li>
+              <li>✅ Practical Training & Internships — Accepted by leading semiconductor giants.</li>
+              <li>✅ Industry-Ready Curriculum — Designed by engineers from IEEE-ASME & global semicon leaders.</li>
             </ul>
 
             <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-md">
@@ -54,7 +54,7 @@ export default function PartnersSection() {
               </Button>
             </Link>
 
-            <p className="text-gray-300 text-[10px] sm:text-xs pt-10">
+            <p className="text-gray-300 text-[10px] sm:text-xs pt-6">
               * Logos and companies names are the trademarks of the respective organizations.
             </p>
           </div>

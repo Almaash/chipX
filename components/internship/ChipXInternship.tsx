@@ -181,7 +181,7 @@ export default function ChipXInternship() {
       <div className="text-center space-y-3">
         <a
           href="https://luma.com/dztcpcy6"
-          target="_blank"
+          // target="_blank"
           rel="noopener noreferrer"
         >
 
