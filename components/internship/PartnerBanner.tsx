@@ -2,6 +2,8 @@
 
 import { cn } from "@/lib/utils";
 import { Users, Award, Rocket } from "lucide-react";
+import { CheckCircle } from "lucide-react";
+
 
 export function PartnerBanner({ className }: { className?: string }) {
     return (
@@ -32,13 +34,34 @@ export function PartnerBanner({ className }: { className?: string }) {
                         At ChipX, we believe in building the future of semiconductors together with universities, colleges, and student communities.
                     </p>
 
-                    <ul className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto text-left list-disc list-inside space-y-2">
-                        <li>Internships – Industry-ready semiconductor internships for your students with hands-on tools & projects.</li>
-                        <li>PG Programs – Long-term career programs in Physical Design & VLSI specialization.</li>
-                        <li>Workshops & Webinars – Expert-led sessions to introduce students to chip design, EDA tools, and semiconductor careers.</li>
-                        <li>College Fests & Events – Partner with ChipX to bring exciting VLSI competitions, talks, and panel discussions to your campus.</li>
-                        <li>Conferences – Co-create Semiconductor Summits & Conferences with ChipX to put your institution on India’s semiconductor map.</li>
+
+                    <ul className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto text-left space-y-3">
+                        <li className="flex items-start gap-2">
+                            <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
+                            <span>Internships – Industry-ready semiconductor internships for your students with hands-on tools & projects.</span>
+                        </li>
+
+                        <li className="flex items-start gap-2">
+                            <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
+                            <span>PG Programs – Long-term career programs in Physical Design & VLSI specialization.</span>
+                        </li>
+
+                        <li className="flex items-start gap-2">
+                            <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
+                            <span>Workshops & Webinars – Expert-led sessions to introduce students to chip design, EDA tools, and semiconductor careers.</span>
+                        </li>
+
+                        <li className="flex items-start gap-2">
+                            <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
+                            <span>College Fests & Events – Partner with ChipX to bring exciting VLSI competitions, talks, and panel discussions to your campus.</span>
+                        </li>
+
+                        <li className="flex items-start gap-2">
+                            <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
+                            <span>Conferences – Co-create Semiconductor Summits & Conferences with ChipX to put your institution on India’s semiconductor map.</span>
+                        </li>
                     </ul>
+
 
                     <p className="mt-4 text-sm sm:text-base lg:text-base leading-relaxed text-blue-800 max-w-3xl mx-auto font-bold">
                         ✨ From universities and engineering departments to Training & Placement cells, E-Cells, student clubs, and professional societies — ChipX welcomes collaborations to nurture and empower the next generation of semiconductor innovators.
@@ -64,6 +87,18 @@ export function PartnerBanner({ className }: { className?: string }) {
                                 Workshops, webinars & conferences
                             </span>
                         </div>
+                    </div>
+
+                    {/* CTA Button */}
+                    <div className="mt-10">
+                        <a
+                            href="https://luma.com/ja6ly2xt"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-6 py-3 rounded-full bg-blue-600 text-white font-semibold shadow-md hover:bg-blue-700 transition"
+                        >
+                            Partner With Us
+                        </a>
                     </div>
                 </div>
             </div>

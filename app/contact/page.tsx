@@ -54,12 +54,26 @@ export default function ContactPage() {
 
           {/* CTA Buttons */}
           <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
-            <Button className="bg-white/10 hover:bg-white/20 text-white px-5 sm:px-6 py-2 text-sm sm:text-base font-medium rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 cursor-pointer border border-white/20">
-              Apply Now →
-            </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-5 sm:px-6 py-2 text-sm sm:text-base font-medium rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 cursor-pointer">
-              Partner With Us →
-            </Button>
+            <a
+              href="https://luma.com/dztcpcy6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <Button className="bg-white/10 hover:bg-white/20 text-white px-5 sm:px-6 py-2 text-sm sm:text-base font-medium rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 cursor-pointer border border-white/20">
+                Apply Now →
+              </Button>
+            </a>
+            <a
+              href="https://luma.com/ja6ly2xt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-5 sm:px-6 py-2 text-sm sm:text-base font-medium rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 cursor-pointer">
+                Partner With Us →
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -70,15 +84,16 @@ export default function ContactPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-0">
         <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Map Section */}
-          <div className="w-full h-[300px] sm:h-[400px] md:h-[450px] rounded-xl overflow-hidden shadow-lg border">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.132691798345!2d77.70217939999999!3d12.9633599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ab1884f719%3A0xd72102ad7e3b3947!2sWeWork%20Roshni%20Tech%20Hub%20%E2%80%93%20Coworking%20%26%20Office%20Space%20in%20Marathahalli%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1756374929694!5m2!1sen!2sin"
-              className="w-full h-full border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
+       <div className="w-full h-[300px] sm:h-[400px] md:h-[450px] rounded-xl shadow-2xl border overflow-hidden">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.132691798345!2d77.70217939999999!3d12.9633599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ab1884f719%3A0xd72102ad7e3b3947!2sWeWork%20Roshni%20Tech%20Hub%20%E2%80%93%20Coworking%20%26%20Office%20Space%20in%20Marathahalli%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1756374929694!5m2!1sen!2sin"
+    className="w-full h-full rounded-xl shadow-lg border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+
 
           {/* Content Section */}
           <div className="space-y-6 text-center md:text-left">
@@ -93,18 +108,25 @@ export default function ContactPage() {
               Pura, EPIP Zone, Chinnapanna Halli, Bengaluru, Karnataka, India
             </p>
             <div className="flex justify-center md:justify-start">
-              <Button
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/918877809827?text=Hi%20there!%20Welcome%20to%20ChipX%20%E2%80%93%20India%E2%80%99s%20First%20Semiconductor%20School",
-                    "_blank"
-                  )
-                }
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg transition flex items-center gap-2"
+              <a
+                href="https://luma.com/2kcayp93"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>📱</span>
-                Schedule a Visit
-              </Button>
+
+                <Button
+                  // onClick={() =>
+                  //   window.open(
+                  //     "https://wa.me/918877809827?text=Hi%20there!%20Welcome%20to%20ChipX%20%E2%80%93%20India%E2%80%99s%20First%20Semiconductor%20School",
+                  //     "_blank"
+                  //   )
+                  // }
+                  className=" cursor-pointer bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg transition flex items-center gap-2"
+                >
+                  <span>📱</span>
+                  Schedule a Visit
+                </Button>
+              </a>
             </div>
 
           </div>
@@ -118,7 +140,7 @@ export default function ContactPage() {
       <section className="py-16 sm:py-20 bg-white px-4 lg:px-0">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10">
-            Our Gallery
+            ChipX Campus Gallery
           </h2>
 
           <div className="flex flex-wrap justify-center gap-10">

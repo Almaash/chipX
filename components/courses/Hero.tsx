@@ -22,9 +22,16 @@ export function Hero() {
             the workflows of global semiconductor giants.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
-            <Button className="bg-[#2f6fed] hover:bg-[#265dcc] text-sm md:text-base px-5 py-2 md:px-6 md:py-3">
-              Apply Now →
-            </Button>
+            <a
+              href="https://luma.com/dztcpcy6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-[#2f6fed] hover:bg-[#265dcc] text-sm md:text-base px-5 py-2 md:px-6 md:py-3 cursor-pointer">
+                Apply Now →
+              </Button>
+            </a>
+
           </div>
           <div className="mt-4 inline-flex items-center gap-2 text-xs md:text-sm text-slate-300">
             {/* <Sparkles className="h-4 w-4 text-[#2f6fed]" /> */}

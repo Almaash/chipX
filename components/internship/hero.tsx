@@ -42,9 +42,18 @@ export function Hero() {
         </p>
 
         <div className="mt-6 sm:mt-8 flex flex-wrap items-center gap-3">
-          <Button className="bg-[#2f6fed] hover:bg-[#265dcc] px-5 sm:px-6" size="lg">
-            Apply Now
-          </Button>
+
+          <a
+            href="https://luma.com/dztcpcy6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+
+            <Button className="bg-[#2f6fed] hover:bg-[#265dcc] px-5 sm:px-6 cursor-pointer" size="lg">
+              Apply Now
+            </Button>
+          </a>
           {/* <Button
             className="border border-slate-400/30 bg-transparent text-white hover:bg-white/10 px-5 sm:px-6"
             size="lg"

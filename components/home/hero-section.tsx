@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -42,20 +43,22 @@ export default function HeroSection() {
 
           <div className="mb-8">
             <p className="text-lg max-lg:text-base md:text-xl text-gray-200">
-             Built by Engineers from <br />
+              Built by Engineers from <br />
               <span className="text-[#38BDF8] font-semibold">
-               IEEE–ASME New York
+                IEEE–ASME New York
               </span> &  Global Semiconductor Leaders
 
             </p>
           </div>
 
-          <Button
-            size="lg"
-            className="bg-[#38BDF8] text-white hover:bg-[#38BDF8]/90 px-8 max-lg:px-6 py-3 max-lg:py-2 text-lg max-lg:text-base font-semibold rounded-lg shadow-lg transition"
-          >
-            Apply Now →
-          </Button>
+          <Link href="/courses">
+            <Button
+              size="lg"
+              className="bg-[#38BDF8] text-white hover:bg-[#38BDF8]/90 px-8 max-lg:px-6 py-3 max-lg:py-2 text-lg max-lg:text-base font-semibold rounded-lg shadow-lg transition cursor-pointer"
+            >
+              Apply Now →
+            </Button>
+          </Link>
           {/* <p className="text-gray-400 text-sm pt-10">*Note learn more goes to about us page</p> */}
         </div>
       </div>

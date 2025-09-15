@@ -25,6 +25,7 @@ const courses = [
     tag2: "Offer Letter & Joining Letter. ",
     tag: " Certificate of Completion.",
     image: "/images/office1.jpg",
+    link: "https://luma.com/dztcpcy6",
   },
   {
     id: 2,
@@ -48,6 +49,8 @@ const courses = [
     ],
     tag: "Certificate of Completion",
     image: "/images/office2.jpg",
+    link: "https://luma.com/dztcpcy6",
+
   },
   {
     id: 3,
@@ -68,6 +71,8 @@ const courses = [
     ],
     tag: "Certificate of Completion",
     image: "/images/office3.jpg",
+    link: "https://luma.com/dztcpcy6",
+
   },
 ];
 
@@ -149,9 +154,16 @@ export default function Courses() {
                           ))}
                         </ul>
                       </div>
-                      <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium shadow-md hover:bg-blue-700 transition mt-5 cursor-pointer">
-                        <span>Apply Now</span>
-                      </button>
+                      <a
+                        href={course.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium shadow-md hover:bg-blue-700 transition mt-5 cursor-pointer">
+                          <span>Apply Now</span>
+                        </button>
+                      </a>
+
                     </div>
                   </div>
 

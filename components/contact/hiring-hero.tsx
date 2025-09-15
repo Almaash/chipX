@@ -38,14 +38,28 @@ export function HiringHero({ className }: { className?: string }) {
           </p>
 
           <div className="mt-4 sm:mt-6 flex flex-col md:flex-row justify-center md:justify-start gap-3">
-            <Button className="rounded-full bg-blue-900 px-4 py-2 sm:px-6 sm:py-3 text-white hover:bg-blue-800 flex items-center gap-2 text-sm sm:text-base" size="lg">
+              <a
+              href="https://luma.com/4gs7iig9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+            <Button className="cursor-pointer rounded-full bg-blue-900 px-4 py-2 sm:px-6 sm:py-3 text-white hover:bg-blue-800 flex items-center gap-2 text-sm sm:text-base" size="lg">
               <span>Join Our Hiring Network</span>
               <span aria-hidden="true">→</span>
             </Button>
-            <Button className="rounded-full bg-blue-600 px-4 py-2 sm:px-6 sm:py-3 text-white hover:bg-blue-700 flex items-center gap-2 text-sm sm:text-base" size="lg">
+            </a>
+              <a
+              href="https://luma.com/ja6ly2xt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+            <Button className="cursor-pointer rounded-full bg-blue-600 px-4 py-2 sm:px-6 sm:py-3 text-white hover:bg-blue-700 flex items-center gap-2 text-sm sm:text-base" size="lg">
               <span>Partner With ChipX</span>
               <span aria-hidden="true">→</span>
             </Button>
+            </a>
           </div>
         </div>
 

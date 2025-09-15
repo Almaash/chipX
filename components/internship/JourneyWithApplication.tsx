@@ -79,14 +79,20 @@ export default function JourneyWithApplication() {
             <CardContent>
               <div className="grid grid-cols-3 gap-6 text-center">
                 <Stat label="Final Seats" value="25" />
-
-                <Button
-                  className="rounded-md bg-[#2f6fed] px-6 py-2 text-sm font-semibold text-white 
-                 hover:bg-[#265dcc] shadow-md transition-all duration-300 
-                 hover:scale-105 active:scale-95"
+                <a
+                  href="https://luma.com/dztcpcy6"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Apply Now
-                </Button>
+
+                  <Button
+                    className="rounded-md bg-[#2f6fed] px-6 py-2 text-sm font-semibold text-white 
+                  hover:bg-[#265dcc] shadow-md transition-all duration-300 
+                  hover:scale-105 active:scale-95 cursor-pointer"
+                  >
+                    Apply Now
+                  </Button>
+                </a>
               </div>
             </CardContent>
 

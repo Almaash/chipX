@@ -67,7 +67,7 @@ export default function JourneyWithCourseApplication() {
               </ul>
               <div className="pt-2">
                 <a
-                  href="#apply"
+                  href="https://luma.com/dztcpcy6"
                   className="inline-block rounded-md bg-[#2f6fed] px-4 py-2 text-sm font-medium text-white hover:bg-[#265dcc] shadow"
                 >
                   Apply Now
@@ -75,8 +75,43 @@ export default function JourneyWithCourseApplication() {
               </div>
             </CardContent>
           </Card>
+
+          <Card className="border border-[#2f6fed]/20 bg-gradient-to-br from-white to-[#f0f6ff] shadow-md">
+            <CardHeader>
+              <CardTitle className="text-base text-[#1e3a8a]">Application Journey</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-3 gap-6 text-center">
+                <Stat label="Final Seats" value="25" />
+                <a
+                  href="https://luma.com/dztcpcy6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+
+                  <Button
+                    className="rounded-md bg-[#2f6fed] px-6 py-2 text-sm font-semibold text-white 
+                            hover:bg-[#265dcc] shadow-md transition-all duration-300 
+                            hover:scale-105 active:scale-95"
+                  >
+                    Apply Now
+                  </Button>
+                </a>
+              </div>
+            </CardContent>
+
+          </Card>
         </div>
       </div>
     </section>
+  )
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <div className="text-3xl font-extrabold tracking-tight text-[#2f6fed]">{value}</div>
+      <div className="mt-1 text-xs text-slate-600">{label}</div>
+    </div>
   )
 }

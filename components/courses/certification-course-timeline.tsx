@@ -2,7 +2,7 @@ import { Calendar } from "lucide-react"
 
 export function CertificationCourseTimeline() {
   const milestones = [
-    { title: "Applications Review Open", blurb: "November 2026" },
+    { title: "Applications Review Open", blurb: "November 2025" },
     { title: "Round 1 Deadline", blurb: "26th January 2026" },
     { title: "Round 2 Deadline", blurb: "23rd February 2026" },
     { title: "Round 3 Deadline", blurb: "23rd March 2026" },

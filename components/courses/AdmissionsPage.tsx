@@ -31,17 +31,24 @@ export default function AdmissionsPage() {
           {/* Notification Box */}
           <div className="bg-blue-200 p-2 sm:p-3 rounded-lg max-w-md mx-auto lg:mx-0">
             <p className="text-gray-800 text-xs sm:text-sm lg:text-xs xl:text-sm font-medium">
-              Applications now open for <span className="font-semibold">April 2026</span> — 
+              Applications now open for <span className="font-semibold">April 2026</span> —
               Selection through Screening & Interview only.
             </p>
           </div>
 
           {/* Apply Now Button */}
           <div>
-            <Button className="bg-gray-800 hover:bg-gray-700 text-white px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base lg:text-xs xl:text-sm font-semibold flex items-center gap-2 mx-auto lg:mx-0">
-              APPLY NOW
-              <ArrowRight className="w-4 h-4 sm:w-4 sm:h-4" />
-            </Button>
+
+            <a
+              href="https://luma.com/dztcpcy6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-gray-800 hover:bg-gray-700 text-white px-4 sm:px-5 py-2 sm:py-2.5 text-sm sm:text-base lg:text-xs xl:text-sm font-semibold flex items-center gap-2 mx-auto lg:mx-0 cursor-pointer">
+                APPLY NOW
+                <ArrowRight className="w-4 h-4 sm:w-4 sm:h-4" />
+              </Button>
+            </a>
           </div>
         </div>
 

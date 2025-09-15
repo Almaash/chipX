@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 const companyLogos = [
   { name: "Infineon", logo: "/images/infineon.png" },
@@ -43,13 +44,15 @@ export default function PartnersSection() {
               🌐 With <span className="font-bold text-gray-900">ChipX</span>, you gain the skills, projects, and confidence to step into companies like Qualcomm, MediaTek, Infineon, Intel, Synopsys, Cadence, and more
             </p>
 
-            <Button
-              className="bg-green-500 hover:bg-green-600 text-white px-5 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-full font-medium shadow-md"
-              size="sm"
-            >
-              👉 Explore Programs
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link href="/courses">
+              <Button
+                className="bg-green-500 hover:bg-green-600 text-white px-5 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-full font-medium shadow-md flex items-center cursor-pointer"
+                size="sm"
+              >
+                👉 Explore Programs
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
 
             <p className="text-gray-300 text-[10px] sm:text-xs">
               * Logos and companies names are the trademarks of the respective organizations.

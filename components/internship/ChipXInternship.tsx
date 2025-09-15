@@ -45,12 +45,12 @@ export default function ChipXInternship() {
     },
   ]
 
-const benefits = [
-  "100% Industry-Integrated Training — Learn workflows used at leading semiconductor companies.",
-  "Hands-on with EDA Tools — Train on Synopsys, Cadence & Siemens tools, the global industry standard.",
-  "Real-World Internship Projects — Build a portfolio that proves you’re job-ready.",
-  "Career Mentorship & Soft Skills — Get guidance on interviews, communication, and global teamwork.",
-]
+  const benefits = [
+    "100% Industry-Integrated Training — Learn workflows used at leading semiconductor companies.",
+    "Hands-on with EDA Tools — Train on Synopsys, Cadence & Siemens tools, the global industry standard.",
+    "Real-World Internship Projects — Build a portfolio that proves you’re job-ready.",
+    "Career Mentorship & Soft Skills — Get guidance on interviews, communication, and global teamwork.",
+  ]
 
 
   return (
@@ -106,7 +106,7 @@ const benefits = [
             </li>
           </ul>
 
-          <Button className="mt-8 px-10 py-3 text-lg font-semibold bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 shadow-md">
+          <Button className="mt-8 px-10 py-3 text-lg font-semibold bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300 shadow-md cursor-pointer">
             Download Brochure
           </Button>
         </div>
@@ -179,12 +179,19 @@ const benefits = [
 
       {/* Call to Action */}
       <div className="text-center space-y-3">
-        <Button
-          size="lg"
-          className="px-10 py-3 text-lg font-semibold rounded-full border-2 border-indigo-600 text-indigo-600 bg-transparent hover:bg-indigo-600 hover:text-white transition-colors duration-300"
+        <a
+          href="https://luma.com/dztcpcy6"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Apply Now
-        </Button>
+
+          <Button
+            size="lg"
+            className="px-10 py-3 text-lg font-semibold rounded-full border-2 border-indigo-600 text-indigo-600 bg-transparent hover:bg-indigo-600 hover:text-white transition-colors duration-300 cursor-pointer"
+          >
+            Apply Now
+          </Button>
+        </a>
       </div>
 
 

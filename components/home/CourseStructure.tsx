@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const courses = [
   {
@@ -22,6 +23,7 @@ const courses = [
     tag2: "📄 Offer Letter + Completion Certificate",
     tag: "Step into the global semiconductor ecosystem",
     image: "/images/office1.jpg",
+    link: "https://luma.com/dztcpcy6",
   },
   {
     id: 2,
@@ -48,6 +50,7 @@ const courses = [
     tag2: "Offer Letter + Completion Certificate + Experience Letter",
     tag: "Globally Competitive Semiconductor Engineer",
     image: "/images/office2.jpg",
+    link: "https://luma.com/dztcpcy6",
   },
   {
     id: 3,
@@ -68,6 +71,7 @@ const courses = [
     ],
     tag: "Completion Certificate",
     image: "/images/office3.jpg",
+    link: "https://luma.com/dztcpcy6",
   },
 ];
 
@@ -93,7 +97,7 @@ export default function CourseStructure() {
         </div>
 
         {/* Courses Grid */}
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 px-2 sm:px-4 md:px-6 lg:px-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 px-2 sm:px-4 md:px-6 lg:px-10">
           {courses.map((course) => (
             <div
               key={course.id}
@@ -164,10 +168,16 @@ export default function CourseStructure() {
                         {course.tag}
                       </span>
                     </div>
-                    <button className="flex items-center justify-center space-x-2 bg-black text-xs sm:text-sm text-white px-4 py-2 rounded-full hover:bg-green-700 transition mt-2 w-full">
+                    <Link
+                      href={course.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center space-x-2 bg-black text-xs sm:text-sm text-white px-4 py-2 rounded-full hover:bg-green-700 transition mt-2 w-full"
+                    >
                       <span>Know More</span>
                       <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-                    </button>
+                    </Link>
+
                   </div>
 
                 </div>

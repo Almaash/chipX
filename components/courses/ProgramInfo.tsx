@@ -25,9 +25,16 @@ export default function ProgramInfo() {
           <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
             🚀 Admissions for Cohort of 2026 are now open!
           </p>
-          <Button className="bg-gray-900 hover:bg-gray-800 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold shadow-md transition w-full sm:w-auto">
-            APPLY NOW →
-          </Button>
+          <a
+            href="https://luma.com/dztcpcy6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <Button className="bg-gray-900 hover:bg-gray-800 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold shadow-md transition w-full sm:w-auto cursor-pointer">
+              APPLY NOW →
+            </Button>
+          </a>
         </div>
       </div>
 
@@ -66,7 +73,7 @@ export default function ProgramInfo() {
             value: "Full-Time | Campus + Hybrid Learning",
             span: 2,
           },
-          
+
           {
             icon: <Calendar size={16} className="text-blue-500" />,
             label: "Starting Date",
@@ -80,9 +87,8 @@ export default function ProgramInfo() {
         ].map((item, index) => (
           <Card
             key={index}
-            className={`${
-              item.span ? `sm:col-span-${item.span}` : ""
-            } p-4 sm:p-5 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition flex flex-col justify-start min-h-[150px]`}
+            className={`${item.span ? `sm:col-span-${item.span}` : ""
+              } p-4 sm:p-5 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition flex flex-col justify-start min-h-[150px]`}
           >
             <div className="flex items-center gap-2 mb-1 text-xs sm:text-sm font-medium text-gray-600">
               {item.icon}
